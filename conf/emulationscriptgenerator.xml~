@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eventgenerator SYSTEM "file:///usr/share/emane/dtd/eventgenerator.dtd">
+<eventgenerator name="Emulation Script Generator" library="emulationscriptgenerator">
+
+<param name="inputfile" value="@BASE_DIR@/conf/experiment/location.xml"/>
+<param name="repeatcount" value="0"/>
+<param name="schemalocation" value="fie:///usr/share/doc/emane-gen-emulationscript-0.8.1/EmulationScriptSchema.xsd"/>
+</eventgenerator>

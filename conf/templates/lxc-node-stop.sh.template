@@ -1,0 +1,5 @@
+#!/bin/bash -
+
+NODEID=@NODEID@
+
+lxc-stop -k -n node-$NODEID &> /dev/null

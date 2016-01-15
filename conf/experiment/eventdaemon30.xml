@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eventdaemon SYSTEM "file:///usr/share/emane/dtd/eventdaemon.dtd">
+
+<eventdaemon name="EMANE Event Daemon 30" nemid = "30">
+	<param name="eventservicegroup" value="224.1.2.4:45703"/>
+	<param name="eventservicedevice" value="eth1"/>
+	<agent definition="gpsdlocationagent30.xml"/>
+</eventdaemon>
+	

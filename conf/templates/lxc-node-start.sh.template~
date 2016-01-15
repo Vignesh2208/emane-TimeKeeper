@@ -1,0 +1,51 @@
+#!/bin/bash -
+
+startime=$1
+
+EMANE_DEMO_ROOT=@EMANEDEMOROOT@
+
+DEMOID=@DEMOID@
+
+NODEID=@NODEID@
+
+LXC_NODE_CONFIG_ROOT=@LXCNODEROOT@
+
+starttime=
+environment=
+
+# process options
+while getopts ":s:e:" opt; do
+    case $opt in
+        s)
+            starttime="-s $OPTARG"
+            ;;
+        e)
+            environment="-e $OPTARG"
+            ;;
+        \?)
+            echo "Invalid option: -$OPTARG"
+            exit 1
+            ;;
+    esac
+done
+
+shift $((OPTIND-1))
+
+# close all optn file descriptors greater than 2
+# required for Ubuntu
+for fd in `ls /proc/$$/fd`
+do
+    if [ $fd -gt 2 -a $fd -lt 255 ]
+    then
+        eval "exec $fd>&-"
+    fi
+done
+
+lxc-execute -f $LXC_NODE_CONFIG_ROOT/config  \
+    -n node-$NODEID                          \
+    -o $LXC_NODE_CONFIG_ROOT/log             \
+    -- $LXC_NODE_CONFIG_ROOT/init.sh         \
+    $starttime                               \
+    $environment                             \
+    2> /dev/null & 
+
