@@ -1,0 +1,11 @@
+Starting Debug for node-11
+SIOCSARP: Invalid argument
+arp: cannot set entry on line 11 of etherfile /home/vignesh/Desktop/emane-Timekeeper/conf/experiment/arp_table.txt !
+Running Command /home/vignesh/Desktop/emane-Timekeeper/lxc-command/client radio-1 25000 1000 emane0 10.100.0.1 10.100.0.11 1000000
+Hostname : radio-1
+Port no : 25000
+Src_IP_to_monitor : 10.100.0.1
+Dst_IP_to_monitor : 10.100.0.11
+Num Messages : 1000
+Timeout : 1000000
+Sent ping message no : 0

@@ -1,0 +1,10 @@
+Starting Debug for node-5
+SIOCSARP: Invalid argument
+arp: cannot set entry on line 5 of etherfile /home/vignesh/Desktop/emane-Timekeeper/conf/experiment/arp_table.txt !
+Running Command python /home/vignesh/Desktop/emane-Timekeeper/lxc-command/print_time.py 10.100.0.5 11 150
+Curr Time = 2016-01-15 17:49:05.439197
+Curr Time = 2016-01-15 17:49:06.003163
+Curr Time = 2016-01-15 17:49:07.213725
+Curr Time = 2016-01-15 17:49:08.407331
+Curr Time = 2016-01-15 17:49:09.618596
+Finished script

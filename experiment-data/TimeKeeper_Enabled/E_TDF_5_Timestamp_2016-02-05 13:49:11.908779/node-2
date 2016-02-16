@@ -1,0 +1,39 @@
+Starting Debug for node-2
+SIOCSARP: Invalid argument
+arp: cannot set entry on line 2 of etherfile /home/vignesh/Desktop/emane-Timekeeper/conf/experiment/arp_table.txt !
+Running Command sudo nice -n -20 su -c /home/vignesh/Desktop/emane-Timekeeper/dilation-code/scripts/print_time
+localtime: 13:47:34 765722, orig_time : 13:48:00 202719
+localtime: 13:47:35 116986, orig_time : 13:48:02 666658
+localtime: 13:47:35 416013, orig_time : 13:48:04 751922
+localtime: 13:47:35 695080, orig_time : 13:48:06 710671
+localtime: 13:47:35 993324, orig_time : 13:48:08 847145
+localtime: 13:47:36 282939, orig_time : 13:48:10 991305
+localtime: 13:47:36 543783, orig_time : 13:48:13 1929
+localtime: 13:47:36 830078, orig_time : 13:48:15 154083
+localtime: 13:47:37 101150, orig_time : 13:48:17 237715
+localtime: 13:47:37 481850, orig_time : 13:48:20 148646
+localtime: 13:47:37 816876, orig_time : 13:48:22 647488
+localtime: 13:47:38 93668, orig_time : 13:48:24 810932
+localtime: 13:47:38 369735, orig_time : 13:48:26 911673
+localtime: 13:47:38 646687, orig_time : 13:48:29 33379
+localtime: 13:47:38 927589, orig_time : 13:48:31 198176
+localtime: 13:47:39 181621, orig_time : 13:48:33 264247
+localtime: 13:47:39 467549, orig_time : 13:48:35 531352
+localtime: 13:47:39 723855, orig_time : 13:48:37 599083
+localtime: 13:47:40 6616, orig_time : 13:48:40 90938
+localtime: 13:47:40 6616, orig_time : 13:48:41 956795
+localtime: 13:47:40 6616, orig_time : 13:48:43 811758
+localtime: 13:47:40 6616, orig_time : 13:48:45 677164
+localtime: 13:47:40 6616, orig_time : 13:48:47 594628
+localtime: 13:47:40 6616, orig_time : 13:48:49 511343
+localtime: 13:47:40 6616, orig_time : 13:48:51 404204
+localtime: 13:47:40 6616, orig_time : 13:48:53 323312
+localtime: 13:47:40 6616, orig_time : 13:48:55 181985
+localtime: 13:47:40 6616, orig_time : 13:48:57 47280
+localtime: 13:47:40 6616, orig_time : 13:48:58 911890
+localtime: 13:47:40 6616, orig_time : 13:49:00 769561
+localtime: 13:47:40 6616, orig_time : 13:49:02 637596
+localtime: 13:47:40 6616, orig_time : 13:49:04 497721
+localtime: 13:47:40 6616, orig_time : 13:49:06 356792
+localtime: 13:47:40 6616, orig_time : 13:49:08 214187
+localtime: 13:47:40 6616, orig_time : 13:49:10 91146

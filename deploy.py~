@@ -1,3 +1,12 @@
+#
+# File  : deploy.py
+# 
+# Brief : Starts an emane-deployment with TimeKeeper enabled or disabled
+#
+# authors : Vignesh Babu
+#
+
+
 import sys
 import os
 import re
@@ -19,6 +28,7 @@ transportendpoint_base = 8301
 transport_base_address ="10.100.0.0"
 
 cwd = os.getcwd()
+
 lxc_files_dir = "/tmp/emane/lxc"
 experiment_dir = cwd + "/conf/experiment"
 
@@ -638,7 +648,9 @@ def configure() :
 		line_no += 1
 		if line.startswith("#") :
 			continue
-		
+		line = line.replace('\t','')
+		if len(line) <= 1 :
+			continue
 		params = line.split(",")
 		if len(params) != 6 :
 			ERROR("Node conf parser: Invalid number of configurations. Line_no %s" %line_no)
@@ -1045,23 +1057,19 @@ def main():
 
 	try :
 
-		k = 1		
+		k = 0		
 		while True :
 
 			if ENABLE_TIMEKEEPER == 1 :
-				#if os.path.exists(cwd + "/exp_finished.txt") :
-				#	os.unlink(cwd + "/exp_finished.txt")
-				
-				#	break
 				pid = getpidfromname("node-" + str(1))
 				curr_time = int(subprocess.check_output([cwd + "/lxc-command/gettimepid", str(pid)]))
 
 				if curr_time - start_time >= run_time :					
 					break;
 				else :
-					if curr_time - prev_time == 1 :
+					if curr_time - prev_time >= 1 :
+						k = k + (curr_time - prev_time)
 						print k," secs elapsed"
-						k = k + 1
 						prev_time = curr_time
 						
 

@@ -1,3 +1,12 @@
+#
+# File  : deploy.py
+# 
+# Brief : Starts an emane-deployment with TimeKeeper enabled or disabled
+#
+# authors : Vignesh Babu
+#
+
+
 import sys
 import os
 import re
@@ -11,9 +20,9 @@ from datetime import datetime
 import subprocess
 import signal
 
+## DEFAULT VALUES
+
 ENABLE_TIMEKEEPER = 1
-
-
 platformendpoint_base = 8201
 transportendpoint_base = 8301
 transport_base_address ="10.100.0.0"
@@ -44,7 +53,6 @@ def Int2IP(ipnum):
 
 def generate_ARP_table(n_nodes):
 
-	#02:02:00:00:XX:XX
 	arp_table = ""
 	i = 1
 	while i <= n_nodes :
@@ -638,7 +646,9 @@ def configure() :
 		line_no += 1
 		if line.startswith("#") :
 			continue
-		
+		line = line.replace('\t','')
+		if len(line) <= 1 :
+			continue
 		params = line.split(",")
 		if len(params) != 6 :
 			ERROR("Node conf parser: Invalid number of configurations. Line_no %s" %line_no)
@@ -1049,10 +1059,6 @@ def main():
 		while True :
 
 			if ENABLE_TIMEKEEPER == 1 :
-				#if os.path.exists(cwd + "/exp_finished.txt") :
-				#	os.unlink(cwd + "/exp_finished.txt")
-				
-				#	break
 				pid = getpidfromname("node-" + str(1))
 				curr_time = int(subprocess.check_output([cwd + "/lxc-command/gettimepid", str(pid)]))
 

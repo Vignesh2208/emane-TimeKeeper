@@ -1,0 +1,22 @@
+Starting Debug for node-1
+SIOCSARP: Invalid argument
+arp: cannot set entry on line 1 of etherfile /home/vignesh/Desktop/emane-Timekeeper/conf/experiment/arp_table.txt !
+Running Command /home/vignesh/Desktop/emane-Timekeeper/lxc-command/server 25000 1000 emane0 10.100.0.11 10.100.0.1
+Server received datagram : 1452897814,678708
+server received datagram no 1 from (10.100.0.11)
+RecvTime : 572963840
+SendTime : 572755124
+Transmit time : 208716
+Avg Transmit time (sec) : 0.208716
+Std Dev Transmit time (sec) : 0.000000
+Avg throughput : 4.790350
+#####################################################
+Server received datagram : 1452897815,693849
+server received datagram no 2 from (10.100.0.11)
+RecvTime : 574066970
+SendTime : 573770265
+Transmit time : 296705
+Avg Transmit time (sec) : 0.252711
+Std Dev Transmit time (sec) : 0.043995
+Avg throughput : 3.157438
+#####################################################

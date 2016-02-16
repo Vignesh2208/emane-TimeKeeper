@@ -1,9 +1,18 @@
 #!/bin/bash
+#
+# File  : run_experiments.sh
+# 
+# Brief : This script runs the large_linear test several times for different iterations. The user specifies the 
+#	  number of iterations for each TDF and the number of TDFs to test/ experiment with.
+#
+# authors : Vignesh Babu
+#
 
-N_iterations=1
-TDF_COUNTER=5
-TDF_STEP_SIZE=2
-MAX_TDF=11
+
+N_iterations=1			# number of iterations for each TDF
+TDF_COUNTER=5			# Start TDF
+TDF_STEP_SIZE=2			# TDF increment value
+MAX_TDF=11			# End TDF of Experiment
 i=0
 while [ $i -lt $N_iterations ]; do
 	while [ $TDF_COUNTER -lt $MAX_TDF ]; do

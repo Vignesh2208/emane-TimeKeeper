@@ -1,0 +1,45 @@
+Starting Debug for node-3
+SIOCSARP: Invalid argument
+arp: cannot set entry on line 3 of etherfile /home/vignesh/Desktop/emane-Timekeeper/conf/experiment/arp_table.txt !
+Running Command /home/vignesh/Desktop/PLCs/awlsim-0.42/tests/run.sh --node 1 /home/vignesh/Desktop/PLCs/awlsim-0.42/tests/modbus/simple_client_server/sfb102_client.awl
+48 (process ID) old priority 0, new priority 10
+=== Running tests with 'python3'
+Running test 'sfb102_client.awl' with 'python3' ... ['lxc.utsname ', ' lxc0-0']
+['lxc.network.type ', ' veth']
+['lxc.network.flags ', ' up']
+['lxc.network.link ', ' br-0-0']
+['lxc.network.ipv4 ', ' 10.10.0.9/8']
+Dest IP :  10.10.0.9
+Resolved hostname =  10.10.0.9
+~~~~~~~~~~~~~~~~~~~~Inputs~~~~~~~~~~~~~~~~~~~
+CONNECTION ID     =  2
+CONN_TIME         =  5.0
+RECV_TIME         =  5.0
+DICONNECT         =  1
+ENQ_ENR           =  1
+
+~~~~~~~~~~~~~~~~~~~Outputs~~~~~~~~~~~~~~~~~~~
+Traceback (most recent call last):
+  File "/home/vignesh/Desktop/PLCs/awlsim-0.42/tests/../awlsim-cli", line 551, in <module>
+    sys.exit(main())
+  File "/home/vignesh/Desktop/PLCs/awlsim-0.42/tests/../awlsim-cli", line 548, in main
+    return run(inputFile,node_id)
+  File "/home/vignesh/Desktop/PLCs/awlsim-0.42/tests/../awlsim-cli", line 226, in run
+    s.runCycle()
+  File "/home/vignesh/Desktop/PLCs/awlsim-0.42/awlsim/core/main.py", line 179, in runCycle
+    self.cpu.runCycle()
+  File "/home/vignesh/Desktop/PLCs/awlsim-0.42/awlsim/core/cpu.py", line 849, in runCycle
+    self.__runOB(self.obs[1]) # -- I think OB1 refers to user code
+  File "/home/vignesh/Desktop/PLCs/awlsim-0.42/awlsim/core/cpu.py", line 793, in __runOB
+    insn.run()
+  File "/home/vignesh/Desktop/PLCs/awlsim-0.42/awlsim/core/instructions/insn_generic_call.py", line 47, in run
+    self.callback()
+  File "/home/vignesh/Desktop/PLCs/awlsim-0.42/awlsim/core/systemblocks/system_sfb_102.py", line 299, in run
+    STATUS = connection.call_modbus_client()
+  File "/home/vignesh/Desktop/PLCs/awlsim-0.42/awlsim/core/systemblocks/connection.py", line 589, in call_modbus_client
+    nsleep(3000000)
+  File "/home/vignesh/Desktop/PLCs/awlsim-0.42/awlsim/core/systemblocks/connection.py", line 46, in nsleep
+    nanosleep_req.tv_sec = sec
+TypeError: int expected instead of float
+=== TEST FAILED ===
+Test 'sfb102_client.awl' FAILED

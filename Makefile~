@@ -3,8 +3,7 @@ all : Timekeeper lxc_command
 Timekeeper:
 	cd dilation-code; make 
 
-lxc_command:
-	
+lxc_command:	
 	cd lxc-command; make
 
 large_linear_disabled:

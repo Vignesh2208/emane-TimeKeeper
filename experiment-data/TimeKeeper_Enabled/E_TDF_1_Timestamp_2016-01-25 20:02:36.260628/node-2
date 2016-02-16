@@ -1,0 +1,52 @@
+Starting Debug for node-2
+SIOCSARP: Invalid argument
+arp: cannot set entry on line 2 of etherfile /home/vignesh/Desktop/emane-Timekeeper/conf/experiment/arp_table.txt !
+Running Command sudo nice -n -20 su -c /home/vignesh/Desktop/emane-Timekeeper/dilation-code/scripts/print_time
+localtime: 19:52:19 41063, orig_time : 19:52:27 901466
+localtime: 19:52:24 942785, orig_time : 19:52:45 165623
+localtime: 19:52:30 244085, orig_time : 19:53:00 958065
+localtime: 19:52:33 951719, orig_time : 19:53:13 69397
+localtime: 19:52:37 326990, orig_time : 19:53:23 891604
+localtime: 19:52:43 84310, orig_time : 19:53:40 925613
+localtime: 19:52:46 731018, orig_time : 19:53:52 503607
+localtime: 19:52:48 925936, orig_time : 19:53:59 746966
+localtime: 19:52:51 274801, orig_time : 19:54:06 828600
+localtime: 19:52:53 807139, orig_time : 19:54:14 466491
+localtime: 19:52:56 339888, orig_time : 19:54:22 416871
+localtime: 19:52:58 873924, orig_time : 19:54:29 864745
+localtime: 19:53:01 655410, orig_time : 19:54:37 615120
+localtime: 19:53:07 321811, orig_time : 19:54:53 457371
+localtime: 19:53:13 757934, orig_time : 19:55:10 825463
+localtime: 19:53:19 398243, orig_time : 19:55:26 252315
+localtime: 19:53:23 475965, orig_time : 19:55:37 909581
+localtime: 19:53:26 653499, orig_time : 19:55:46 530539
+localtime: 19:53:31 795704, orig_time : 19:56:01 890327
+localtime: 19:53:34 509809, orig_time : 19:56:09 959629
+localtime: 19:53:37 372739, orig_time : 19:56:18 566953
+localtime: 19:53:40 295046, orig_time : 19:56:26 38383
+localtime: 19:53:42 634974, orig_time : 19:56:33 231899
+localtime: 19:53:46 144038, orig_time : 19:56:42 923197
+localtime: 19:53:50 34840, orig_time : 19:56:54 263690
+localtime: 19:53:55 49537, orig_time : 19:57:09 21292
+localtime: 19:53:58 493822, orig_time : 19:57:19 489553
+localtime: 19:54:01 672595, orig_time : 19:57:28 958995
+localtime: 19:54:05 113083, orig_time : 19:57:39 657113
+localtime: 19:54:09 971776, orig_time : 19:57:54 358292
+localtime: 19:54:14 650174, orig_time : 19:58:08 663950
+localtime: 19:54:19 275257, orig_time : 19:58:22 688113
+localtime: 19:54:26 746562, orig_time : 19:58:44 690890
+localtime: 19:54:32 784497, orig_time : 19:59:02 125642
+localtime: 19:54:38 506009, orig_time : 19:59:19 556369
+localtime: 19:54:44 101381, orig_time : 19:59:35 302345
+localtime: 19:54:47 923386, orig_time : 19:59:46 397689
+localtime: 19:54:53 966229, orig_time : 20:00:04 271495
+localtime: 19:54:56 773077, orig_time : 20:00:13 221345
+localtime: 19:54:59 876548, orig_time : 20:00:22 948836
+localtime: 19:55:03 127764, orig_time : 20:00:32 389667
+localtime: 19:55:06 627628, orig_time : 20:00:42 272461
+localtime: 19:55:11 292509, orig_time : 20:00:56 250624
+localtime: 19:55:14 674641, orig_time : 20:01:05 465030
+localtime: 19:55:19 598686, orig_time : 20:01:19 232343
+localtime: 19:55:24 133048, orig_time : 20:01:32 389010
+localtime: 19:55:30 175764, orig_time : 20:01:49 447710
+localtime: 19:55:34 125642, orig_time : 20:02:01 131106

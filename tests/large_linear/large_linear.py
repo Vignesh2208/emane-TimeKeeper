@@ -1,33 +1,68 @@
+#
+# File  : large_linear.py
+# 
+# Brief : This script generates a node.conf and emane.conf file for a semi-linear topology where each node can directly talk to three closest neighbour.
+#	  The TDF, number of nodes, experiment run time are specified in the configuration section of the script
+#
+# authors : Vignesh Babu
+#
+
+
+
 import os
 from os.path import expanduser
 import math
 import sys
+script_path = os.path.dirname(os.path.realpath(__file__))
+script_path_list = script_path.split('/')
+
+root_directory = "/"
+for entry in script_path_list :
+	
+	if entry == "emane-Timekeeper" :
+		root_directory = root_directory + "emane-Timekeeper"
+		break
+	else :
+		if len(entry) > 0 :
+			root_directory = root_directory + entry + "/"
+
+
+conf_directory = root_directory + "/conf"
+tests_directory = root_directory + "/tests"
+cmd_directory  = root_directory + "/lxc-command"
+
+
 
 ################################################# CONFIGURATION ######################################################
 
-dilation = 1
-n_nodes = 41			# Converted to nearest odd number
+dilation 			= 5
+n_nodes 			= 3					# Converted to nearest odd number
+run_time 			= 10					# virtual run time (in secs)
+routing_monitor_run_time 	= 150					# used only when routing monitor is run as the alt_cmd
+
+lattitude 			= 40.0310751857906			# lattitude of all nodes in the linear topology
+longitude_start 		= -74.5235179912516			# longitude of first node in the topology
+altitude 			= 3					# altitude in meters
+longitude_increment 		= -0.01					# increment applied to longitude of other nodes. longitude(node_id) = longitude_start + longitude_increment*(node_id - 1)
+
+radio_IP_addr_start 		= "10.100.0.0"				# IP address internally visible to applications/routing protocols
+node_IP_addr_start 		= "10.99.0.0"				# IP address used by Emane for broadcasting/unicasting messages
+msg_send_timeout 		= 1000000				# periodic msg send timeout used by client
+
+
 
 if n_nodes % 2 == 0 :
 	n_nodes = n_nodes + 1
 
-alt_cmd = "/home/vignesh/Desktop/emane-Timekeeper/lxc-command/routing_table_monitor "
 
-cmd = "sudo nice -n -20 su -c /home/vignesh/Desktop/emane-Timekeeper/dilation-code/scripts/print_time"
+alt_cmd = cmd_directory + "/print_time "
+cmd = "sudo nice -n -20 su -c " + root_directory + "/dilation-code/scripts/print_time"
 
-#alt_cmd = "echo NoCommand"
-#cmd = "echo NoCommand"
 
 # Current configuration - node-1 runs server, last node runs client which sends ping to server.
 # Every other even id node runs cmd defined in variable cmd.
 # Every other odd id node runs cmd defined in variable alt_cmd
 
-# All even id nodes assigned to cpu 0 or cpu 1
-# All odd id nodes assigned to cpu 2 or cpu 3
-
-
-run_time = 200				# virtual run time (in secs)
-routing_monitor_run_time = 150
 
 
 config = """otamanagerdevice		=	eth1
@@ -49,19 +84,8 @@ n_nodes				=	"""  + str(n_nodes) + "\n" + "run_time			= 	" + str(run_time) + "\n
 ################################################# CONFIGURATION ######################################################
 
 home = expanduser("~")
-#home = os.getcwd()
-
-lattitude = 40.0310751857906
-longitude_start = -74.5235179912516
-altitude = 3
-longitude_increment = -0.01
-
-radio_IP_addr_start = "10.100.0.0"
-node_IP_addr_start = "10.99.0.0"
-msg_send_timeout = 1000000
-
-
 HOSTS_FILE = "/etc/hosts"
+
 
 arg_list = sys.argv
 if len(arg_list) > 1 :
@@ -116,32 +140,26 @@ with open("temp_hosts","r") as f :
 i = 1
 
 with open("node.conf", "a") as f :
-
+	f.write("# Node_ID,	lattitude,		longitude,		altitude,	TDF,		Command <space separated args list>\n")
 	while i <= n_nodes :		
 
 		if i == 1 :
-			curr_cmd = home + "/Desktop/emane-Timekeeper/lxc-command/server 25000 1000 emane0 " + str(client_node_IP) + " " + str(server_node_IP)
-			curr_dilation = 1
+			curr_cmd = cmd_directory + "/server 25000 1000 emane0 " + str(client_node_IP) + " " + str(server_node_IP)
 			curr_dilation = dilation
 			
 		elif i == n_nodes :
-			curr_cmd = home + "/Desktop/emane-Timekeeper/lxc-command/client radio-1 25000 1000 emane0 " + str(server_node_IP) + " " + str(client_node_IP) + " " + str(msg_send_timeout)
-			curr_dilation = 1
+			curr_cmd = cmd_directory + "/client radio-1 25000 1000 emane0 " + str(server_node_IP) + " " + str(client_node_IP) + " " + str(msg_send_timeout)
 			curr_dilation = dilation
 		else :
 
 			if i % 2 == 1 :
 				curr_cmd = alt_cmd + Int2IP(IP2Int(radio_IP_addr_start) + i)  + " " + str(n_nodes) + " " + str(routing_monitor_run_time)
-				curr_dilation = dilation # was 1
-				#curr_dilation = 1 # was 1
+				curr_dilation = dilation			
 			else :
 				curr_cmd = cmd				
 				curr_dilation = dilation
 	
-		curr_line = str(i) + "," + str(lattitude) + "," + str(longitude_start + i*longitude_increment) + "," + str(altitude) + "," + str(curr_dilation) + "," + curr_cmd + "\n"
-
-		#if i > 1 :
-		#	dist = getDistanceFromLatLonInm(lattitude,(i-1)*longitude_increment,lattitude,i*longitude_increment)
+		curr_line = str(i) + ",		" + str(lattitude) + ",		" + str(longitude_start + i*longitude_increment) + ",		" + str(altitude) + ",		" + str(curr_dilation) + ",		" + curr_cmd + "\n"
 		f.write(curr_line)
 		i = i + 1
 

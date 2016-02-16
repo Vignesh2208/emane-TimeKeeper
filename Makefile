@@ -1,4 +1,7 @@
-all : Timekeeper lxc_command
+all : defns Timekeeper lxc_command
+
+defns:
+	python definitions.py
 
 Timekeeper:
 	cd dilation-code; make 

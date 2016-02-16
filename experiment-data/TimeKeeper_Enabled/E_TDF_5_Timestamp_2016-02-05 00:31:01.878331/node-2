@@ -1,0 +1,11 @@
+Starting Debug for node-2
+SIOCSARP: Invalid argument
+arp: cannot set entry on line 2 of etherfile /home/vignesh/Desktop/emane-Timekeeper/conf/experiment/arp_table.txt !
+Running Command sudo nice -n -20 su -c /home/vignesh/Desktop/emane-Timekeeper/dilation-code/scripts/print_time
+localtime: 0:29:31 19635, orig_time : 0:29:39 170190
+localtime: 0:29:32 232317, orig_time : 0:29:46 777092
+localtime: 0:29:33 425441, orig_time : 0:29:54 868346
+localtime: 0:29:34 578098, orig_time : 0:30:02 794928
+localtime: 0:29:35 679172, orig_time : 0:30:10 74420
+localtime: 0:29:36 837695, orig_time : 0:30:17 251724
+localtime: 0:29:38 147719, orig_time : 0:30:24 728735

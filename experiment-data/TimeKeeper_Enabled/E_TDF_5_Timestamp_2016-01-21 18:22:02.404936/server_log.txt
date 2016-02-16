@@ -1,0 +1,1765 @@
+Starting...
+Monitoring : emane0, Src IP : 10.100.0.11, Dst IP 10.100.0.1
+Started at, localtime: 17:13:08 307394, orig_time : 17:13:10 423323
+emane0:Device found
+
+bmf0:
+eth1:
+any:
+lo:
+Device ip address: 10.100.0.1
+MAC src: 02 02 00 00 00 04 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:09 728745, orig_time : 17:13:27 433366
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 1
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:10 681324, orig_time : 17:13:39 883166
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 2
+########################################################
+MAC src: 02 02 00 00 00 03 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:11 681359, orig_time : 17:13:53 767235
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 3
+########################################################
+MAC src: 02 02 00 00 00 04 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:12 729047, orig_time : 17:14:08 856678
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 4
+########################################################
+MAC src: 02 02 00 00 00 04 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:13 868856, orig_time : 17:14:25 213878
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 5
+########################################################
+MAC src: 02 02 00 00 00 04 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:14 893148, orig_time : 17:14:39 640100
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 6
+########################################################
+MAC src: 02 02 00 00 00 03 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:15 755078, orig_time : 17:14:51 822697
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 7
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:16 847866, orig_time : 17:15:07 549601
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 8
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:17 754749, orig_time : 17:15:20 556296
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 9
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:18 802526, orig_time : 17:15:35 458040
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 10
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:19 896272, orig_time : 17:15:51 97966
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 11
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:20 897749, orig_time : 17:16:05 580765
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 12
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:21 922127, orig_time : 17:16:20 834414
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 13
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:22 853110, orig_time : 17:16:34 811743
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 14
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:23 899512, orig_time : 17:16:50 673468
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 15
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:24 922553, orig_time : 17:17:06 616488
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 16
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:25 969955, orig_time : 17:17:22 950963
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 17
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:26 945700, orig_time : 17:17:38 440097
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 18
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:27 991961, orig_time : 17:17:54 740144
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 19
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:28 898098, orig_time : 17:18:09 9073
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 20
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:30 58799, orig_time : 17:18:27 703857
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 21
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:30 939007, orig_time : 17:18:41 527782
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 22
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:32 30741, orig_time : 17:18:58 136283
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 23
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:33 6561, orig_time : 17:19:12 892737
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 24
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:34 76854, orig_time : 17:19:29 23347
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 25
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:35 54343, orig_time : 17:19:43 873719
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 26
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:36 77806, orig_time : 17:20:00 67664
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 27
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:37 124740, orig_time : 17:20:15 901535
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 28
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:38 194014, orig_time : 17:20:32 947695
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 29
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:39 195668, orig_time : 17:44:43 311546
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 30
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:40 288262, orig_time : 17:44:59 924482
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 31
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:41 285547, orig_time : 17:45:14 818737
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 32
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:42 330270, orig_time : 17:45:31 68993
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 33
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:43 331098, orig_time : 17:45:46 44655
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 34
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:44 307568, orig_time : 17:46:00 862806
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 35
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:45 283113, orig_time : 17:46:16 91063
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 36
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:46 282796, orig_time : 17:46:31 225289
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 37
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:47 305940, orig_time : 17:46:46 112305
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 38
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:48 374517, orig_time : 17:47:01 582484
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 39
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:49 303727, orig_time : 17:47:14 681211
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 40
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:50 397031, orig_time : 17:47:30 462783
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 41
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:51 444912, orig_time : 17:47:45 220632
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 42
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:52 446024, orig_time : 17:47:59 421073
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 43
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:53 493328, orig_time : 17:48:14 289171
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 44
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:54 424378, orig_time : 17:48:27 684110
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 45
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:55 472372, orig_time : 17:48:42 456422
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 46
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:56 426966, orig_time : 17:48:55 744078
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 47
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:57 567925, orig_time : 17:49:11 386195
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 48
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:58 615643, orig_time : 17:49:25 842331
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 49
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:13:59 569838, orig_time : 17:49:38 779654
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 50
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:00 593514, orig_time : 17:49:52 514878
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 51
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:01 524122, orig_time : 17:50:05 15160
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 52
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:02 548014, orig_time : 17:50:19 41286
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 53
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:03 595512, orig_time : 17:50:33 428885
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 54
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:04 573714, orig_time : 17:50:47 30721
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 55
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:05 621541, orig_time : 17:51:01 511724
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 56
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:06 669060, orig_time : 17:51:15 787112
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 57
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:07 646882, orig_time : 17:51:29 91494
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 58
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:08 694681, orig_time : 17:51:43 323090
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 59
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:09 650199, orig_time : 17:51:57 175224
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 60
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:10 720899, orig_time : 17:52:11 915674
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 61
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:11 744994, orig_time : 17:52:25 801120
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 62
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:12 745053, orig_time : 17:52:38 987324
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 63
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:13 675142, orig_time : 17:52:51 71225
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 64
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:14 790981, orig_time : 17:53:05 197013
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 65
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:15 837044, orig_time : 17:53:18 486009
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 66
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:16 813548, orig_time : 17:53:30 979264
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 67
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:17 813489, orig_time : 17:53:43 482966
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 68
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:18 860055, orig_time : 17:53:56 645852
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 69
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:19 906460, orig_time : 17:54:09 316511
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 70
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:20 951987, orig_time : 17:54:21 776882
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 71
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:21 904914, orig_time : 17:54:33 289333
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 72
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:22 949867, orig_time : 17:54:45 862592
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 73
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:23 949197, orig_time : 17:54:58 40374
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 74
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:24 925111, orig_time : 17:55:09 768270
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 75
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:25 971561, orig_time : 17:55:22 324061
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 76
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:27 17771, orig_time : 17:55:35 41977
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 77
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:28 63673, orig_time : 17:55:47 938476
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 78
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:28 993748, orig_time : 17:55:59 275676
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 79
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:30 39294, orig_time : 17:56:12 49402
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 80
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:31 15000, orig_time : 17:56:24 574455
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 81
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:32 60303, orig_time : 17:56:38 396819
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 82
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:33 35753, orig_time : 17:56:51 327933
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 83
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:34 151059, orig_time : 17:57:06 598877
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 84
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:35 197314, orig_time : 17:57:20 634861
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 85
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:36 126912, orig_time : 17:57:33 52390
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 86
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:37 173027, orig_time : 17:57:46 679022
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 87
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:38 126074, orig_time : 17:57:59 40317
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 88
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:39 218436, orig_time : 17:58:13 415439
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 89
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:40 217915, orig_time : 17:58:26 554440
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 90
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:41 240058, orig_time : 17:58:39 901459
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 91
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:42 262484, orig_time : 17:58:53 140545
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 92
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:43 307967, orig_time : 17:59:06 893322
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 93
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:44 353671, orig_time : 17:59:20 733144
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 94
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:45 237482, orig_time : 17:59:32 537711
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 95
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:46 329486, orig_time : 17:59:47 420952
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 96
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:47 329081, orig_time : 18:00:01 154350
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 97
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:48 304658, orig_time : 18:00:14 695181
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 98
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:49 350340, orig_time : 18:00:29 91908
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 99
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:50 419867, orig_time : 18:00:43 722786
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 100
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:51 418950, orig_time : 18:00:57 39513
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 101
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:52 418005, orig_time : 18:01:09 987519
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 102
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:53 393521, orig_time : 18:01:22 41893
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 103
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:54 508145, orig_time : 18:01:35 336251
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 104
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:55 390892, orig_time : 18:01:45 831994
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 105
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:56 553174, orig_time : 18:02:00 281163
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 106
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:57 483006, orig_time : 18:02:11 955176
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 107
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:58 529029, orig_time : 18:02:25 402031
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 108
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:14:59 505283, orig_time : 18:02:38 84915
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 109
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:00 527243, orig_time : 18:02:51 409582
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 110
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:01 572986, orig_time : 18:03:05 81194
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 111
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:02 620622, orig_time : 18:03:18 482321
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 112
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:03 666205, orig_time : 18:03:31 709788
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 113
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:04 664601, orig_time : 18:03:44 609648
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 114
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:05 709226, orig_time : 18:03:56 780609
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 115
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:06 754511, orig_time : 18:04:08 937441
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 116
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:07 800562, orig_time : 18:04:21 501869
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 117
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:08 777302, orig_time : 18:04:33 749411
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 118
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:09 731448, orig_time : 18:04:45 996646
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 119
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:10 801071, orig_time : 18:04:59 742438
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 120
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:11 754781, orig_time : 18:05:11 951318
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 121
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:12 917128, orig_time : 18:05:27 12694
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 122
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:13 799509, orig_time : 18:05:38 451833
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 123
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:14 798902, orig_time : 18:05:51 966315
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 124
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:15 844910, orig_time : 18:06:06 390149
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 125
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:16 821247, orig_time : 18:06:19 979973
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 126
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:17 867395, orig_time : 18:06:34 225148
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 127
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:18 869271, orig_time : 18:06:47 103964
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 128
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:19 915277, orig_time : 18:07:00 577770
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 129
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:21 31365, orig_time : 18:07:14 883723
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 130
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:21 936115, orig_time : 18:07:26 326715
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 131
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:23 49566, orig_time : 18:07:40 292070
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 132
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:24 94205, orig_time : 18:07:53 450087
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 133
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:25 93496, orig_time : 18:08:06 283544
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 134
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:26 139956, orig_time : 18:08:19 582512
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 135
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:27 93378, orig_time : 18:08:31 391854
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 136
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:28 70116, orig_time : 18:08:43 273395
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 137
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:29 231638, orig_time : 18:08:57 499765
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 138
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:30 43782, orig_time : 18:09:07 778579
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 139
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:31 205291, orig_time : 18:09:23 338931
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 140
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:32 204345, orig_time : 18:09:36 716711
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 141
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:33 250094, orig_time : 18:09:50 574968
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 142
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:34 295998, orig_time : 18:10:03 977427
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 143
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:35 341956, orig_time : 18:10:16 892937
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 144
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:36 249313, orig_time : 18:10:28 159353
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 145
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:37 296394, orig_time : 18:10:41 143509
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 146
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:38 227358, orig_time : 18:10:52 897641
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 147
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:39 274364, orig_time : 18:11:05 990107
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 148
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:40 274623, orig_time : 18:11:18 300634
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 149
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:41 368179, orig_time : 18:11:31 498166
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 150
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:42 368204, orig_time : 18:11:43 149157
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 151
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:43 369028, orig_time : 18:11:54 892124
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 152
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:44 299991, orig_time : 18:12:05 872736
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 153
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:45 509992, orig_time : 18:12:20 348831
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 154
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:46 394589, orig_time : 18:12:31 97702
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 155
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:47 442344, orig_time : 18:12:44 2431
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 156
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:48 396512, orig_time : 18:12:55 719642
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 157
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:49 444079, orig_time : 18:13:08 695926
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 158
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:50 491552, orig_time : 18:13:21 562926
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 159
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:51 539100, orig_time : 18:13:34 301971
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 160
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:52 515817, orig_time : 18:13:46 103209
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 161
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:53 516278, orig_time : 18:13:58 265601
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 162
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:54 470182, orig_time : 18:14:09 650560
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 163
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:55 610888, orig_time : 18:14:23 372991
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 164
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:56 658405, orig_time : 18:14:36 80975
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 165
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:57 613304, orig_time : 18:14:47 695193
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 166
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:58 613692, orig_time : 18:14:59 856705
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 167
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:15:59 590575, orig_time : 18:15:11 860094
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 168
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:00 637648, orig_time : 18:15:24 731970
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 169
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:01 614503, orig_time : 18:15:37 287632
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 170
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:02 638173, orig_time : 18:15:51 977189
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 171
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:03 685319, orig_time : 18:16:06 407233
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 172
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:04 778386, orig_time : 18:16:21 437402
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 173
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:05 731971, orig_time : 18:16:34 460035
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 174
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:06 754504, orig_time : 18:16:48 421215
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 175
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:07 823735, orig_time : 18:17:02 996498
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 176
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:08 730519, orig_time : 18:17:15 194485
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 177
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:09 847160, orig_time : 18:17:29 906648
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 178
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:10 800983, orig_time : 18:17:42 332793
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 179
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:11 846349, orig_time : 18:17:55 790576
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 180
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:12 821227, orig_time : 18:18:08 466004
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 181
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:13 820708, orig_time : 18:18:20 967108
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 182
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:14 889383, orig_time : 18:18:34 72630
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 183
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:15 935537, orig_time : 18:18:46 705422
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 184
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:16 911887, orig_time : 18:18:58 744967
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 185
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:17 959354, orig_time : 18:19:12 542796
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 186
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:18 913729, orig_time : 18:19:25 318420
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 187
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:19 961286, orig_time : 18:19:39 511749
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 188
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:20 939200, orig_time : 18:19:52 932578
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 189
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:21 986374, orig_time : 18:20:07 297669
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 190
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:22 985853, orig_time : 18:20:21 16840
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 191
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:24 78438, orig_time : 18:20:35 958453
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 192
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:25 7695, orig_time : 18:20:48 387819
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 193
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:26 52711, orig_time : 18:21:02 483881
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 194
+########################################################
+MAC src: 02 02 00 00 00 02 
+MAC dest: 02 02 00 00 00 01 
+########################################################
+Received at, localtime: 17:16:27 75073, orig_time : 18:21:16 623700
+IP packet TTL = 61
+Protocol Type : UDP, Src port: 36750
+Avg Number of Hops : 3.000000, STD DEV : 0.000000
+Number of packets observed : 195
+########################################################

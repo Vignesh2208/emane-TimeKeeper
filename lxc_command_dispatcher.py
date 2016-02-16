@@ -1,3 +1,11 @@
+#
+# File  : lxc_command_dispatcher.py
+# 
+# Brief : Dispatches commands to lxcs
+#
+# authors : Vignesh Babu
+#
+
 import sys
 import os
 

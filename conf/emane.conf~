@@ -9,5 +9,5 @@ antennaprofilemanifesturi	=
 transportdef			=	transvirtual
 macdef				=	ieee80211abgmac
 phydef				=	universalphy
-n_nodes				=	2
+n_nodes				=	3
 run_time			= 	2000

@@ -1,0 +1,55 @@
+Starting Debug for node-7
+SIOCSARP: Invalid argument
+arp: cannot set entry on line 7 of etherfile /home/vignesh/Desktop/emane-Timekeeper/conf/experiment/arp_table.txt !
+Running Command python /home/vignesh/Desktop/emane-Timekeeper/lxc-command/print_time.py 10.100.0.7 11 150
+Curr Time = 2016-01-21 17:13:08.311115
+Curr Time = 2016-01-21 17:13:09.313642
+Curr Time = 2016-01-21 17:13:10.332635
+Curr Time = 2016-01-21 17:13:11.350679
+Curr Time = 2016-01-21 17:13:12.370022
+Curr Time = 2016-01-21 17:13:13.390131
+Curr Time = 2016-01-21 17:13:14.408173
+Curr Time = 2016-01-21 17:13:15.427038
+Curr Time = 2016-01-21 17:13:16.445421
+Curr Time = 2016-01-21 17:13:17.464738
+Curr Time = 2016-01-21 17:13:18.482143
+Curr Time = 2016-01-21 17:13:19.500320
+Curr Time = 2016-01-21 17:13:20.518605
+Curr Time = 2016-01-21 17:13:21.518465
+Curr Time = 2016-01-21 17:13:22.536084
+Curr Time = 2016-01-21 17:13:23.554980
+Curr Time = 2016-01-21 17:13:24.572163
+Curr Time = 2016-01-21 17:13:25.590834
+Curr Time = 2016-01-21 17:13:26.607556
+Curr Time = 2016-01-21 17:13:27.625171
+Curr Time = 2016-01-21 17:13:28.641963
+Curr Time = 2016-01-21 17:13:29.658681
+Curr Time = 2016-01-21 17:13:30.677174
+Curr Time = 2016-01-21 17:13:31.694261
+Curr Time = 2016-01-21 17:13:32.711548
+Curr Time = 2016-01-21 17:13:33.727934
+Curr Time = 2016-01-21 17:13:34.746275
+Curr Time = 2016-01-21 17:13:35.763531
+Curr Time = 2016-01-21 17:13:36.781840
+Curr Time = 2016-01-21 17:13:37.800568
+Curr Time = 2016-01-21 17:13:38.820673
+Curr Time = 2016-01-21 17:13:39.837078
+Curr Time = 2016-01-21 17:13:40.852243
+Curr Time = 2016-01-21 17:13:41.868609
+Curr Time = 2016-01-21 17:13:42.885061
+Curr Time = 2016-01-21 17:13:43.901043
+Curr Time = 2016-01-21 17:13:44.917998
+Curr Time = 2016-01-21 17:13:45.934496
+Curr Time = 2016-01-21 17:13:46.932404
+Curr Time = 2016-01-21 17:13:47.948883
+Curr Time = 2016-01-21 17:13:48.964446
+Curr Time = 2016-01-21 17:13:49.980002
+Curr Time = 2016-01-21 17:13:50.996775
+Curr Time = 2016-01-21 17:13:52.013536
+Curr Time = 2016-01-21 17:13:53.031241
+Curr Time = 2016-01-21 17:13:54.048248
+Curr Time = 2016-01-21 17:13:55.065440
+Curr Time = 2016-01-21 17:13:56.082854
+Curr Time = 2016-01-21 17:13:57.100538
+Curr Time = 2016-01-21 17:13:58.116849
+Finished script

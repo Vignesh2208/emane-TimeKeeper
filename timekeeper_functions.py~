@@ -69,12 +69,26 @@ def getpidfromname(lxcname) :
 
 	my_pid = os.getpid()
 	pid = -1
-	temp_file = "/tmp/" + my_pid + "_timekeeper.txt"
-	command = "lxc-info -n %s | grep pid | tr -s ' ' | cut -d ' ' -f 2 > %s" % (lxcname,temp_file)
+	temp_file = "/tmp/" + str(my_pid) + "_timekeeper.txt"
+
+	# For different versions of LXCs
+	command = "lxc-info -n %s | grep PID | tr -s ' ' | cut -d ' ' -f 2 > %s" % (lxcname,temp_file)
 	os.system(command)
+	
 
 	with open(temp_file,"r") as f :
-		pid = int(f.read())
+		pidstr = f.read()
+		if pidstr != "" :
+			pid = int(pidstr)
+	if pid == -1 :
+		command  = "lxc-info -n %s | grep pid | tr -s ' ' | cut -d ' ' -f 2 > %s" % (lxcname,temp_file)
+        	os.system(command)
+		with open(temp_file,"r") as f :
+	                pidstr = f.read()
+        	        if pidstr != "" :
+                	        pid = int(pidstr)
+
+	
 	
 	os.remove(temp_file)
 	

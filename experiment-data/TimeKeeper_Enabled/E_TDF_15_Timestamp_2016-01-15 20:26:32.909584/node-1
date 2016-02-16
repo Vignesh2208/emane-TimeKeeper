@@ -1,0 +1,1777 @@
+Starting Debug for node-1
+SIOCSARP: Invalid argument
+arp: cannot set entry on line 1 of etherfile /home/vignesh/Desktop/emane-Timekeeper/conf/experiment/arp_table.txt !
+Running Command /home/vignesh/Desktop/emane-Timekeeper/lxc-command/server 25000 1000 emane0 10.100.0.11 10.100.0.1
+Server received datagram : 1452901745,438124
+server received datagram no 1 from (10.100.0.11)
+RecvTime : 208758972
+SendTime : 208547244
+Transmit time : 211728
+Avg Transmit time (sec) : 0.211728
+Std Dev Transmit time (sec) : 0.000000
+Avg throughput : 4.724469
+#####################################################
+Server received datagram : 1452901746,463599
+server received datagram no 2 from (10.100.0.11)
+RecvTime : 209897657
+SendTime : 209572719
+Transmit time : 324938
+Avg Transmit time (sec) : 0.268333
+Std Dev Transmit time (sec) : 0.056605
+Avg throughput : 3.102784
+#####################################################
+Server received datagram : 1452901747,488111
+server received datagram no 3 from (10.100.0.11)
+RecvTime : 210867556
+SendTime : 210597231
+Transmit time : 270325
+Avg Transmit time (sec) : 0.268997
+Std Dev Transmit time (sec) : 0.046227
+Avg throughput : 2.499511
+#####################################################
+Server received datagram : 1452901748,491999
+server received datagram no 4 from (10.100.0.11)
+RecvTime : 211816887
+SendTime : 211601119
+Transmit time : 215768
+Avg Transmit time (sec) : 0.255690
+Std Dev Transmit time (sec) : 0.046195
+Avg throughput : 2.180483
+#####################################################
+Server received datagram : 1452901749,508772
+server received datagram no 5 from (10.100.0.11)
+RecvTime : 212829406
+SendTime : 212617892
+Transmit time : 211514
+Avg Transmit time (sec) : 0.246855
+Std Dev Transmit time (sec) : 0.044938
+Avg throughput : 1.977917
+#####################################################
+Server received datagram : 1452901750,533793
+server received datagram no 6 from (10.100.0.11)
+RecvTime : 213926932
+SendTime : 213642913
+Transmit time : 284019
+Avg Transmit time (sec) : 0.253049
+Std Dev Transmit time (sec) : 0.043298
+Avg throughput : 1.834151
+#####################################################
+Server received datagram : 1452901751,539012
+server received datagram no 7 from (10.100.0.11)
+RecvTime : 214981904
+SendTime : 214648132
+Transmit time : 333772
+Avg Transmit time (sec) : 0.264581
+Std Dev Transmit time (sec) : 0.049039
+Avg throughput : 1.727539
+#####################################################
+Server received datagram : 1452901752,544765
+server received datagram no 8 from (10.100.0.11)
+RecvTime : 216079402
+SendTime : 215653885
+Transmit time : 425517
+Avg Transmit time (sec) : 0.284698
+Std Dev Transmit time (sec) : 0.070264
+Avg throughput : 1.644362
+#####################################################
+Server received datagram : 1452901753,550036
+server received datagram no 9 from (10.100.0.11)
+RecvTime : 217035732
+SendTime : 216659156
+Transmit time : 376576
+Avg Transmit time (sec) : 0.294906
+Std Dev Transmit time (sec) : 0.072265
+Avg throughput : 1.579462
+#####################################################
+Server received datagram : 1452901756,570481
+server received datagram no 10 from (10.100.0.11)
+RecvTime : 219924229
+SendTime : 219679601
+Transmit time : 244628
+Avg Transmit time (sec) : 0.289879
+Std Dev Transmit time (sec) : 0.070196
+Avg throughput : 1.509413
+#####################################################
+Server received datagram : 1452901757,594101
+server received datagram no 11 from (10.100.0.11)
+RecvTime : 221040903
+SendTime : 220703221
+Transmit time : 337682
+Avg Transmit time (sec) : 0.294224
+Std Dev Transmit time (sec) : 0.068326
+Avg throughput : 1.452235
+#####################################################
+Server received datagram : 1452901758,598254
+server received datagram no 12 from (10.100.0.11)
+RecvTime : 222031556
+SendTime : 221707374
+Transmit time : 324182
+Avg Transmit time (sec) : 0.296721
+Std Dev Transmit time (sec) : 0.065939
+Avg throughput : 1.405376
+#####################################################
+Server received datagram : 1452901759,622076
+server received datagram no 13 from (10.100.0.11)
+RecvTime : 223042469
+SendTime : 222731196
+Transmit time : 311273
+Avg Transmit time (sec) : 0.297840
+Std Dev Transmit time (sec) : 0.063471
+Avg throughput : 1.366259
+#####################################################
+Server received datagram : 1452901760,646005
+server received datagram no 14 from (10.100.0.11)
+RecvTime : 224095819
+SendTime : 223755125
+Transmit time : 340694
+Avg Transmit time (sec) : 0.300901
+Std Dev Transmit time (sec) : 0.062150
+Avg throughput : 1.332984
+#####################################################
+Server received datagram : 1452901761,669332
+server received datagram no 15 from (10.100.0.11)
+RecvTime : 225106794
+SendTime : 224778452
+Transmit time : 328342
+Avg Transmit time (sec) : 0.302731
+Std Dev Transmit time (sec) : 0.060431
+Avg throughput : 1.304506
+#####################################################
+Server received datagram : 1452901762,673244
+server received datagram no 16 from (10.100.0.11)
+RecvTime : 226097022
+SendTime : 225782364
+Transmit time : 314658
+Avg Transmit time (sec) : 0.303476
+Std Dev Transmit time (sec) : 0.058583
+Avg throughput : 1.279956
+#####################################################
+Server received datagram : 1452901763,697018
+server received datagram no 17 from (10.100.0.11)
+RecvTime : 227086892
+SendTime : 226806138
+Transmit time : 280754
+Avg Transmit time (sec) : 0.302139
+Std Dev Transmit time (sec) : 0.057085
+Avg throughput : 1.258603
+#####################################################
+Server received datagram : 1452901764,711377
+server received datagram no 18 from (10.100.0.11)
+RecvTime : 228161144
+SendTime : 227820497
+Transmit time : 340647
+Avg Transmit time (sec) : 0.304279
+Std Dev Transmit time (sec) : 0.056174
+Avg throughput : 1.239665
+#####################################################
+Server received datagram : 1452901765,715665
+server received datagram no 19 from (10.100.0.11)
+RecvTime : 229151153
+SendTime : 228824785
+Transmit time : 326368
+Avg Transmit time (sec) : 0.305441
+Std Dev Transmit time (sec) : 0.054897
+Avg throughput : 1.222954
+#####################################################
+Server received datagram : 1452901766,719417
+server received datagram no 20 from (10.100.0.11)
+RecvTime : 230141614
+SendTime : 229828537
+Transmit time : 313077
+Avg Transmit time (sec) : 0.305823
+Std Dev Transmit time (sec) : 0.053533
+Avg throughput : 1.208115
+#####################################################
+Server received datagram : 1452901767,725464
+server received datagram no 21 from (10.100.0.11)
+RecvTime : 231178306
+SendTime : 230834584
+Transmit time : 343722
+Avg Transmit time (sec) : 0.307628
+Std Dev Transmit time (sec) : 0.052863
+Avg throughput : 1.194773
+#####################################################
+Server received datagram : 1452901768,729463
+server received datagram no 22 from (10.100.0.11)
+RecvTime : 232168570
+SendTime : 231838583
+Transmit time : 329987
+Avg Transmit time (sec) : 0.308644
+Std Dev Transmit time (sec) : 0.051857
+Avg throughput : 1.182800
+#####################################################
+Server received datagram : 1452901769,733525
+server received datagram no 23 from (10.100.0.11)
+RecvTime : 233166692
+SendTime : 232842645
+Transmit time : 324047
+Avg Transmit time (sec) : 0.309314
+Std Dev Transmit time (sec) : 0.050814
+Avg throughput : 1.171992
+#####################################################
+Server received datagram : 1452901770,737581
+server received datagram no 24 from (10.100.0.11)
+RecvTime : 234178373
+SendTime : 233846701
+Transmit time : 331672
+Avg Transmit time (sec) : 0.310245
+Std Dev Transmit time (sec) : 0.049945
+Avg throughput : 1.162174
+#####################################################
+Server received datagram : 1452901771,741547
+server received datagram no 25 from (10.100.0.11)
+RecvTime : 235169463
+SendTime : 234850667
+Transmit time : 318796
+Avg Transmit time (sec) : 0.310587
+Std Dev Transmit time (sec) : 0.048964
+Avg throughput : 1.153250
+#####################################################
+Server received datagram : 1452901772,764622
+server received datagram no 26 from (10.100.0.11)
+RecvTime : 236159414
+SendTime : 235873742
+Transmit time : 285672
+Avg Transmit time (sec) : 0.309629
+Std Dev Transmit time (sec) : 0.048252
+Avg throughput : 1.145110
+#####################################################
+Server received datagram : 1452901773,788521
+server received datagram no 27 from (10.100.0.11)
+RecvTime : 237233830
+SendTime : 236897641
+Transmit time : 336189
+Avg Transmit time (sec) : 0.310613
+Std Dev Transmit time (sec) : 0.047615
+Avg throughput : 1.137558
+#####################################################
+Server received datagram : 1452901774,796360
+server received datagram no 28 from (10.100.0.11)
+RecvTime : 238224205
+SendTime : 237905480
+Transmit time : 318725
+Avg Transmit time (sec) : 0.310903
+Std Dev Transmit time (sec) : 0.046781
+Avg throughput : 1.130627
+#####################################################
+Server received datagram : 1452901775,800455
+server received datagram no 29 from (10.100.0.11)
+RecvTime : 239235204
+SendTime : 238909575
+Transmit time : 325629
+Avg Transmit time (sec) : 0.311410
+Std Dev Transmit time (sec) : 0.046046
+Avg throughput : 1.124226
+#####################################################
+Server received datagram : 1452901776,824647
+server received datagram no 30 from (10.100.0.11)
+RecvTime : 240225203
+SendTime : 239933767
+Transmit time : 291436
+Avg Transmit time (sec) : 0.310745
+Std Dev Transmit time (sec) : 0.045414
+Avg throughput : 1.118320
+#####################################################
+Server received datagram : 1452901777,828374
+server received datagram no 31 from (10.100.0.11)
+RecvTime : 241278150
+SendTime : 240937494
+Transmit time : 340656
+Avg Transmit time (sec) : 0.311709
+Std Dev Transmit time (sec) : 0.044987
+Avg throughput : 1.112797
+#####################################################
+Server received datagram : 1452901778,852396
+server received datagram no 32 from (10.100.0.11)
+RecvTime : 242289163
+SendTime : 241961516
+Transmit time : 327647
+Avg Transmit time (sec) : 0.312207
+Std Dev Transmit time (sec) : 0.044365
+Avg throughput : 1.107659
+#####################################################
+Server received datagram : 1452901779,876426
+server received datagram no 33 from (10.100.0.11)
+RecvTime : 243279130
+SendTime : 242985546
+Transmit time : 293584
+Avg Transmit time (sec) : 0.311643
+Std Dev Transmit time (sec) : 0.043804
+Avg throughput : 1.102886
+#####################################################
+Server received datagram : 1452901780,880416
+server received datagram no 34 from (10.100.0.11)
+RecvTime : 244332299
+SendTime : 243989536
+Transmit time : 342763
+Avg Transmit time (sec) : 0.312558
+Std Dev Transmit time (sec) : 0.043474
+Avg throughput : 1.098393
+#####################################################
+Server received datagram : 1452901781,884030
+server received datagram no 35 from (10.100.0.11)
+RecvTime : 245304688
+SendTime : 244993150
+Transmit time : 311538
+Avg Transmit time (sec) : 0.312529
+Std Dev Transmit time (sec) : 0.042849
+Avg throughput : 1.094215
+#####################################################
+Server received datagram : 1452901782,887899
+server received datagram no 36 from (10.100.0.11)
+RecvTime : 246294894
+SendTime : 245997019
+Transmit time : 297875
+Avg Transmit time (sec) : 0.312122
+Std Dev Transmit time (sec) : 0.042318
+Avg throughput : 1.090312
+#####################################################
+Server received datagram : 1452901783,892205
+server received datagram no 37 from (10.100.0.11)
+RecvTime : 247327450
+SendTime : 247001325
+Transmit time : 326125
+Avg Transmit time (sec) : 0.312501
+Std Dev Transmit time (sec) : 0.041804
+Avg throughput : 1.086631
+#####################################################
+Server received datagram : 1452901784,896804
+server received datagram no 38 from (10.100.0.11)
+RecvTime : 248296843
+SendTime : 248005924
+Transmit time : 290919
+Avg Transmit time (sec) : 0.311933
+Std Dev Transmit time (sec) : 0.041395
+Avg throughput : 1.083193
+#####################################################
+Server received datagram : 1452901785,920928
+server received datagram no 39 from (10.100.0.11)
+RecvTime : 249307994
+SendTime : 249030048
+Transmit time : 277946
+Avg Transmit time (sec) : 0.311061
+Std Dev Transmit time (sec) : 0.041212
+Avg throughput : 1.079952
+#####################################################
+Server received datagram : 1452901786,945638
+server received datagram no 40 from (10.100.0.11)
+RecvTime : 250361746
+SendTime : 250054758
+Transmit time : 306988
+Avg Transmit time (sec) : 0.310959
+Std Dev Transmit time (sec) : 0.040699
+Avg throughput : 1.076868
+#####################################################
+Server received datagram : 1452901787,950400
+server received datagram no 41 from (10.100.0.11)
+RecvTime : 251352100
+SendTime : 251059520
+Transmit time : 292580
+Avg Transmit time (sec) : 0.310511
+Std Dev Transmit time (sec) : 0.040299
+Avg throughput : 1.073965
+#####################################################
+Server received datagram : 1452901788,954502
+server received datagram no 42 from (10.100.0.11)
+RecvTime : 252405320
+SendTime : 252063622
+Transmit time : 341698
+Avg Transmit time (sec) : 0.311254
+Std Dev Transmit time (sec) : 0.040100
+Avg throughput : 1.071195
+#####################################################
+Server received datagram : 1452901789,959072
+server received datagram no 43 from (10.100.0.11)
+RecvTime : 253332165
+SendTime : 253068192
+Transmit time : 263973
+Avg Transmit time (sec) : 0.310154
+Std Dev Transmit time (sec) : 0.040266
+Avg throughput : 1.068613
+#####################################################
+Server received datagram : 1452901790,983355
+server received datagram no 44 from (10.100.0.11)
+RecvTime : 254343272
+SendTime : 254092475
+Transmit time : 250797
+Avg Transmit time (sec) : 0.308805
+Std Dev Transmit time (sec) : 0.040777
+Avg throughput : 1.066162
+#####################################################
+Server received datagram : 1452901792,8444
+server received datagram no 45 from (10.100.0.11)
+RecvTime : 255396566
+SendTime : 255117564
+Transmit time : 279002
+Avg Transmit time (sec) : 0.308143
+Std Dev Transmit time (sec) : 0.040560
+Avg throughput : 1.063815
+#####################################################
+Server received datagram : 1452901793,13685
+server received datagram no 46 from (10.100.0.11)
+RecvTime : 256407932
+SendTime : 256122805
+Transmit time : 285127
+Avg Transmit time (sec) : 0.307642
+Std Dev Transmit time (sec) : 0.040257
+Avg throughput : 1.061582
+#####################################################
+Server received datagram : 1452901794,38078
+server received datagram no 47 from (10.100.0.11)
+RecvTime : 257470867
+SendTime : 257147198
+Transmit time : 323669
+Avg Transmit time (sec) : 0.307983
+Std Dev Transmit time (sec) : 0.039893
+Avg throughput : 1.059436
+#####################################################
+Server received datagram : 1452901795,62309
+server received datagram no 48 from (10.100.0.11)
+RecvTime : 258461077
+SendTime : 258171429
+Transmit time : 289648
+Avg Transmit time (sec) : 0.307601
+Std Dev Transmit time (sec) : 0.039563
+Avg throughput : 1.057399
+#####################################################
+Server received datagram : 1452901796,67122
+server received datagram no 49 from (10.100.0.11)
+RecvTime : 259472246
+SendTime : 259176242
+Transmit time : 296004
+Avg Transmit time (sec) : 0.307365
+Std Dev Transmit time (sec) : 0.039191
+Avg throughput : 1.055456
+#####################################################
+Server received datagram : 1452901797,92674
+server received datagram no 50 from (10.100.0.11)
+RecvTime : 260525666
+SendTime : 260201794
+Transmit time : 323872
+Avg Transmit time (sec) : 0.307695
+Std Dev Transmit time (sec) : 0.038866
+Avg throughput : 1.053585
+#####################################################
+Server received datagram : 1452901798,100048
+server received datagram no 51 from (10.100.0.11)
+RecvTime : 261473501
+SendTime : 261209168
+Transmit time : 264333
+Avg Transmit time (sec) : 0.306845
+Std Dev Transmit time (sec) : 0.038950
+Avg throughput : 1.051821
+#####################################################
+Server received datagram : 1452901799,103689
+server received datagram no 52 from (10.100.0.11)
+RecvTime : 262547991
+SendTime : 262212809
+Transmit time : 335182
+Avg Transmit time (sec) : 0.307390
+Std Dev Transmit time (sec) : 0.038769
+Avg throughput : 1.050112
+#####################################################
+Server received datagram : 1452901800,107330
+server received datagram no 53 from (10.100.0.11)
+RecvTime : 263474909
+SendTime : 263216450
+Transmit time : 258459
+Avg Transmit time (sec) : 0.306466
+Std Dev Transmit time (sec) : 0.038975
+Avg throughput : 1.048504
+#####################################################
+Server received datagram : 1452901801,131310
+server received datagram no 54 from (10.100.0.11)
+RecvTime : 264530055
+SendTime : 264240430
+Transmit time : 289625
+Avg Transmit time (sec) : 0.306155
+Std Dev Transmit time (sec) : 0.038679
+Avg throughput : 1.046950
+#####################################################
+Server received datagram : 1452901802,155260
+server received datagram no 55 from (10.100.0.11)
+RecvTime : 265589465
+SendTime : 265264380
+Transmit time : 325085
+Avg Transmit time (sec) : 0.306499
+Std Dev Transmit time (sec) : 0.038409
+Avg throughput : 1.045446
+#####################################################
+Server received datagram : 1452901803,159429
+server received datagram no 56 from (10.100.0.11)
+RecvTime : 266622488
+SendTime : 266268549
+Transmit time : 353939
+Avg Transmit time (sec) : 0.307346
+Std Dev Transmit time (sec) : 0.038579
+Avg throughput : 1.043996
+#####################################################
+Server received datagram : 1452901804,163449
+server received datagram no 57 from (10.100.0.11)
+RecvTime : 267634605
+SendTime : 267272569
+Transmit time : 362036
+Avg Transmit time (sec) : 0.308305
+Std Dev Transmit time (sec) : 0.038908
+Avg throughput : 1.042605
+#####################################################
+Server received datagram : 1452901805,167549
+server received datagram no 58 from (10.100.0.11)
+RecvTime : 268583083
+SendTime : 268276669
+Transmit time : 306414
+Avg Transmit time (sec) : 0.308273
+Std Dev Transmit time (sec) : 0.038572
+Avg throughput : 1.041285
+#####################################################
+Server received datagram : 1452901806,191501
+server received datagram no 59 from (10.100.0.11)
+RecvTime : 269616025
+SendTime : 269300621
+Transmit time : 315404
+Avg Transmit time (sec) : 0.308394
+Std Dev Transmit time (sec) : 0.038254
+Avg throughput : 1.040011
+#####################################################
+Server received datagram : 1452901807,214686
+server received datagram no 60 from (10.100.0.11)
+RecvTime : 270585279
+SendTime : 270323806
+Transmit time : 261473
+Avg Transmit time (sec) : 0.307612
+Std Dev Transmit time (sec) : 0.038407
+Avg throughput : 1.038797
+#####################################################
+Server received datagram : 1452901808,219018
+server received datagram no 61 from (10.100.0.11)
+RecvTime : 271638980
+SendTime : 271328138
+Transmit time : 310842
+Avg Transmit time (sec) : 0.307665
+Std Dev Transmit time (sec) : 0.038093
+Avg throughput : 1.037618
+#####################################################
+Server received datagram : 1452901809,223084
+server received datagram no 62 from (10.100.0.11)
+RecvTime : 272571484
+SendTime : 272332204
+Transmit time : 239280
+Avg Transmit time (sec) : 0.306562
+Std Dev Transmit time (sec) : 0.038754
+Avg throughput : 1.036501
+#####################################################
+Server received datagram : 1452901810,227136
+server received datagram no 63 from (10.100.0.11)
+RecvTime : 273646185
+SendTime : 273336256
+Transmit time : 309929
+Avg Transmit time (sec) : 0.306615
+Std Dev Transmit time (sec) : 0.038448
+Avg throughput : 1.035410
+#####################################################
+Server received datagram : 1452901811,250335
+server received datagram no 64 from (10.100.0.11)
+RecvTime : 274699389
+SendTime : 274359455
+Transmit time : 339934
+Avg Transmit time (sec) : 0.307136
+Std Dev Transmit time (sec) : 0.038369
+Avg throughput : 1.034348
+#####################################################
+Server received datagram : 1452901812,254011
+server received datagram no 65 from (10.100.0.11)
+RecvTime : 275649426
+SendTime : 275363131
+Transmit time : 286295
+Avg Transmit time (sec) : 0.306815
+Std Dev Transmit time (sec) : 0.038159
+Avg throughput : 1.033338
+#####################################################
+Server received datagram : 1452901813,260646
+server received datagram no 66 from (10.100.0.11)
+RecvTime : 276703250
+SendTime : 276369766
+Transmit time : 333484
+Avg Transmit time (sec) : 0.307219
+Std Dev Transmit time (sec) : 0.038009
+Avg throughput : 1.032353
+#####################################################
+Server received datagram : 1452901814,264297
+server received datagram no 67 from (10.100.0.11)
+RecvTime : 277651219
+SendTime : 277373417
+Transmit time : 277802
+Avg Transmit time (sec) : 0.306780
+Std Dev Transmit time (sec) : 0.037892
+Avg throughput : 1.031416
+#####################################################
+Server received datagram : 1452901815,268636
+server received datagram no 68 from (10.100.0.11)
+RecvTime : 278683636
+SendTime : 278377756
+Transmit time : 305880
+Avg Transmit time (sec) : 0.306767
+Std Dev Transmit time (sec) : 0.037613
+Avg throughput : 1.030506
+#####################################################
+Server received datagram : 1452901816,279859
+server received datagram no 69 from (10.100.0.11)
+RecvTime : 279716102
+SendTime : 279388979
+Transmit time : 327123
+Avg Transmit time (sec) : 0.307062
+Std Dev Transmit time (sec) : 0.037419
+Avg throughput : 1.029622
+#####################################################
+Server received datagram : 1452901817,283057
+server received datagram no 70 from (10.100.0.11)
+RecvTime : 280706060
+SendTime : 280392177
+Transmit time : 313883
+Avg Transmit time (sec) : 0.307159
+Std Dev Transmit time (sec) : 0.037159
+Avg throughput : 1.028772
+#####################################################
+Server received datagram : 1452901818,309777
+server received datagram no 71 from (10.100.0.11)
+RecvTime : 281756039
+SendTime : 281418897
+Transmit time : 337142
+Avg Transmit time (sec) : 0.307582
+Std Dev Transmit time (sec) : 0.037065
+Avg throughput : 1.027942
+#####################################################
+Server received datagram : 1452901819,313758
+server received datagram no 72 from (10.100.0.11)
+RecvTime : 282772468
+SendTime : 282422878
+Transmit time : 349590
+Avg Transmit time (sec) : 0.308165
+Std Dev Transmit time (sec) : 0.037134
+Avg throughput : 1.027137
+#####################################################
+Server received datagram : 1452901820,337403
+server received datagram no 73 from (10.100.0.11)
+RecvTime : 283720044
+SendTime : 283446523
+Transmit time : 273521
+Avg Transmit time (sec) : 0.307690
+Std Dev Transmit time (sec) : 0.037098
+Avg throughput : 1.026369
+#####################################################
+Server received datagram : 1452901821,361465
+server received datagram no 74 from (10.100.0.11)
+RecvTime : 284773315
+SendTime : 284470585
+Transmit time : 302730
+Avg Transmit time (sec) : 0.307623
+Std Dev Transmit time (sec) : 0.036851
+Avg throughput : 1.025619
+#####################################################
+Server received datagram : 1452901822,436354
+server received datagram no 75 from (10.100.0.11)
+RecvTime : 285868993
+SendTime : 285545474
+Transmit time : 323519
+Avg Transmit time (sec) : 0.307835
+Std Dev Transmit time (sec) : 0.036650
+Avg throughput : 1.024877
+#####################################################
+Server received datagram : 1452901823,441324
+server received datagram no 76 from (10.100.0.11)
+RecvTime : 286863579
+SendTime : 286550444
+Transmit time : 313135
+Avg Transmit time (sec) : 0.307905
+Std Dev Transmit time (sec) : 0.036413
+Avg throughput : 1.024160
+#####################################################
+Server received datagram : 1452901824,466841
+server received datagram no 77 from (10.100.0.11)
+RecvTime : 287854363
+SendTime : 287575961
+Transmit time : 278402
+Avg Transmit time (sec) : 0.307522
+Std Dev Transmit time (sec) : 0.036329
+Avg throughput : 1.023469
+#####################################################
+Server received datagram : 1452901825,491054
+server received datagram no 78 from (10.100.0.11)
+RecvTime : 288929840
+SendTime : 288600174
+Transmit time : 329666
+Avg Transmit time (sec) : 0.307806
+Std Dev Transmit time (sec) : 0.036182
+Avg throughput : 1.022788
+#####################################################
+Server received datagram : 1452901826,496473
+server received datagram no 79 from (10.100.0.11)
+RecvTime : 289920523
+SendTime : 289605593
+Transmit time : 314930
+Avg Transmit time (sec) : 0.307896
+Std Dev Transmit time (sec) : 0.035961
+Avg throughput : 1.022130
+#####################################################
+Server received datagram : 1452901827,522321
+server received datagram no 80 from (10.100.0.11)
+RecvTime : 290953458
+SendTime : 290631441
+Transmit time : 322017
+Avg Transmit time (sec) : 0.308073
+Std Dev Transmit time (sec) : 0.035770
+Avg throughput : 1.021488
+#####################################################
+Server received datagram : 1452901828,526317
+server received datagram no 81 from (10.100.0.11)
+RecvTime : 291900974
+SendTime : 291635437
+Transmit time : 265537
+Avg Transmit time (sec) : 0.307547
+Std Dev Transmit time (sec) : 0.035857
+Avg throughput : 1.020875
+#####################################################
+Server received datagram : 1452901829,549957
+server received datagram no 82 from (10.100.0.11)
+RecvTime : 292932594
+SendTime : 292659077
+Transmit time : 273517
+Avg Transmit time (sec) : 0.307132
+Std Dev Transmit time (sec) : 0.035833
+Avg throughput : 1.020275
+#####################################################
+Server received datagram : 1452901830,557148
+server received datagram no 83 from (10.100.0.11)
+RecvTime : 293965285
+SendTime : 293666268
+Transmit time : 299017
+Avg Transmit time (sec) : 0.307035
+Std Dev Transmit time (sec) : 0.035628
+Avg throughput : 1.019690
+#####################################################
+Server received datagram : 1452901831,580270
+server received datagram no 84 from (10.100.0.11)
+RecvTime : 294998891
+SendTime : 294689390
+Transmit time : 309501
+Avg Transmit time (sec) : 0.307064
+Std Dev Transmit time (sec) : 0.035416
+Avg throughput : 1.019118
+#####################################################
+Server received datagram : 1452901832,583471
+server received datagram no 85 from (10.100.0.11)
+RecvTime : 296010389
+SendTime : 295692591
+Transmit time : 317798
+Avg Transmit time (sec) : 0.307190
+Std Dev Transmit time (sec) : 0.035226
+Avg throughput : 1.018562
+#####################################################
+Server received datagram : 1452901833,587633
+server received datagram no 86 from (10.100.0.11)
+RecvTime : 297020859
+SendTime : 296696753
+Transmit time : 324106
+Avg Transmit time (sec) : 0.307387
+Std Dev Transmit time (sec) : 0.035068
+Avg throughput : 1.018021
+#####################################################
+Server received datagram : 1452901834,611358
+server received datagram no 87 from (10.100.0.11)
+RecvTime : 298040469
+SendTime : 297720478
+Transmit time : 319991
+Avg Transmit time (sec) : 0.307532
+Std Dev Transmit time (sec) : 0.034891
+Avg throughput : 1.017493
+#####################################################
+Server received datagram : 1452901835,635548
+server received datagram no 88 from (10.100.0.11)
+RecvTime : 299052183
+SendTime : 298744668
+Transmit time : 307515
+Avg Transmit time (sec) : 0.307532
+Std Dev Transmit time (sec) : 0.034692
+Avg throughput : 1.016980
+#####################################################
+Server received datagram : 1452901836,639316
+server received datagram no 89 from (10.100.0.11)
+RecvTime : 300063174
+SendTime : 299748436
+Transmit time : 314738
+Avg Transmit time (sec) : 0.307613
+Std Dev Transmit time (sec) : 0.034505
+Avg throughput : 1.016480
+#####################################################
+Server received datagram : 1452901837,642763
+server received datagram no 90 from (10.100.0.11)
+RecvTime : 301052718
+SendTime : 300751883
+Transmit time : 300835
+Avg Transmit time (sec) : 0.307537
+Std Dev Transmit time (sec) : 0.034320
+Avg throughput : 1.015996
+#####################################################
+Server received datagram : 1452901838,651038
+server received datagram no 91 from (10.100.0.11)
+RecvTime : 302063523
+SendTime : 301760158
+Transmit time : 303365
+Avg Transmit time (sec) : 0.307491
+Std Dev Transmit time (sec) : 0.034134
+Avg throughput : 1.015525
+#####################################################
+Server received datagram : 1452901839,654724
+server received datagram no 92 from (10.100.0.11)
+RecvTime : 303074352
+SendTime : 302763844
+Transmit time : 310508
+Avg Transmit time (sec) : 0.307524
+Std Dev Transmit time (sec) : 0.033950
+Avg throughput : 1.015066
+#####################################################
+Server received datagram : 1452901840,658361
+server received datagram no 93 from (10.100.0.11)
+RecvTime : 304064366
+SendTime : 303767481
+Transmit time : 296885
+Avg Transmit time (sec) : 0.307410
+Std Dev Transmit time (sec) : 0.033784
+Avg throughput : 1.014620
+#####################################################
+Server received datagram : 1452901841,662062
+server received datagram no 94 from (10.100.0.11)
+RecvTime : 305081241
+SendTime : 304771182
+Transmit time : 310059
+Avg Transmit time (sec) : 0.307438
+Std Dev Transmit time (sec) : 0.033605
+Avg throughput : 1.014185
+#####################################################
+Server received datagram : 1452901842,685551
+server received datagram no 95 from (10.100.0.11)
+RecvTime : 306050267
+SendTime : 305794671
+Transmit time : 255596
+Avg Transmit time (sec) : 0.306892
+Std Dev Transmit time (sec) : 0.033844
+Avg throughput : 1.013766
+#####################################################
+Server received datagram : 1452901843,689189
+server received datagram no 96 from (10.100.0.11)
+RecvTime : 307093083
+SendTime : 306798309
+Transmit time : 294774
+Avg Transmit time (sec) : 0.306766
+Std Dev Transmit time (sec) : 0.033690
+Avg throughput : 1.013353
+#####################################################
+Server received datagram : 1452901844,692514
+server received datagram no 97 from (10.100.0.11)
+RecvTime : 308125408
+SendTime : 307801634
+Transmit time : 323774
+Avg Transmit time (sec) : 0.306941
+Std Dev Transmit time (sec) : 0.033560
+Avg throughput : 1.012949
+#####################################################
+Server received datagram : 1452901845,715874
+server received datagram no 98 from (10.100.0.11)
+RecvTime : 309124256
+SendTime : 308824994
+Transmit time : 299262
+Avg Transmit time (sec) : 0.306863
+Std Dev Transmit time (sec) : 0.033397
+Avg throughput : 1.012555
+#####################################################
+Server received datagram : 1452901846,719516
+server received datagram no 99 from (10.100.0.11)
+RecvTime : 310114133
+SendTime : 309828636
+Transmit time : 285497
+Avg Transmit time (sec) : 0.306647
+Std Dev Transmit time (sec) : 0.033296
+Avg throughput : 1.012173
+#####################################################
+Server received datagram : 1452901847,723112
+server received datagram no 100 from (10.100.0.11)
+RecvTime : 311145896
+SendTime : 310832232
+Transmit time : 313664
+Avg Transmit time (sec) : 0.306717
+Std Dev Transmit time (sec) : 0.033137
+Avg throughput : 1.011798
+#####################################################
+Server received datagram : 1452901848,747415
+server received datagram no 101 from (10.100.0.11)
+RecvTime : 312184927
+SendTime : 311856535
+Transmit time : 328392
+Avg Transmit time (sec) : 0.306932
+Std Dev Transmit time (sec) : 0.033042
+Avg throughput : 1.011429
+#####################################################
+Server received datagram : 1452901849,750868
+server received datagram no 102 from (10.100.0.11)
+RecvTime : 313111457
+SendTime : 312859988
+Transmit time : 251469
+Avg Transmit time (sec) : 0.306388
+Std Dev Transmit time (sec) : 0.033331
+Avg throughput : 1.011077
+#####################################################
+Server received datagram : 1452901850,754175
+server received datagram no 103 from (10.100.0.11)
+RecvTime : 314208668
+SendTime : 313863295
+Transmit time : 345373
+Avg Transmit time (sec) : 0.306767
+Std Dev Transmit time (sec) : 0.033388
+Avg throughput : 1.010725
+#####################################################
+Server received datagram : 1452901851,757610
+server received datagram no 104 from (10.100.0.11)
+RecvTime : 315135928
+SendTime : 314866730
+Transmit time : 269198
+Avg Transmit time (sec) : 0.306406
+Std Dev Transmit time (sec) : 0.033429
+Avg throughput : 1.010388
+#####################################################
+Server received datagram : 1452901852,765069
+server received datagram no 105 from (10.100.0.11)
+RecvTime : 316188993
+SendTime : 315874189
+Transmit time : 314804
+Avg Transmit time (sec) : 0.306485
+Std Dev Transmit time (sec) : 0.033279
+Avg throughput : 1.010056
+#####################################################
+Server received datagram : 1452901853,769490
+server received datagram no 106 from (10.100.0.11)
+RecvTime : 317178750
+SendTime : 316878610
+Transmit time : 300140
+Avg Transmit time (sec) : 0.306426
+Std Dev Transmit time (sec) : 0.033128
+Avg throughput : 1.009732
+#####################################################
+Server received datagram : 1452901854,793097
+server received datagram no 107 from (10.100.0.11)
+RecvTime : 318169769
+SendTime : 317902217
+Transmit time : 267552
+Avg Transmit time (sec) : 0.306062
+Std Dev Transmit time (sec) : 0.033184
+Avg throughput : 1.009418
+#####################################################
+Server received datagram : 1452901855,816838
+server received datagram no 108 from (10.100.0.11)
+RecvTime : 319180897
+SendTime : 318925958
+Transmit time : 254939
+Avg Transmit time (sec) : 0.305589
+Std Dev Transmit time (sec) : 0.033391
+Avg throughput : 1.009110
+#####################################################
+Server received datagram : 1452901856,820789
+server received datagram no 109 from (10.100.0.11)
+RecvTime : 320197221
+SendTime : 319929909
+Transmit time : 267312
+Avg Transmit time (sec) : 0.305238
+Std Dev Transmit time (sec) : 0.033437
+Avg throughput : 1.008809
+#####################################################
+Server received datagram : 1452901857,824763
+server received datagram no 110 from (10.100.0.11)
+RecvTime : 321237822
+SendTime : 320933883
+Transmit time : 303939
+Avg Transmit time (sec) : 0.305226
+Std Dev Transmit time (sec) : 0.033285
+Avg throughput : 1.008512
+#####################################################
+Server received datagram : 1452901858,828394
+server received datagram no 111 from (10.100.0.11)
+RecvTime : 322211346
+SendTime : 321937514
+Transmit time : 273832
+Avg Transmit time (sec) : 0.304943
+Std Dev Transmit time (sec) : 0.033267
+Avg throughput : 1.008224
+#####################################################
+Server received datagram : 1452901859,838904
+server received datagram no 112 from (10.100.0.11)
+RecvTime : 323243867
+SendTime : 322948024
+Transmit time : 295843
+Avg Transmit time (sec) : 0.304862
+Std Dev Transmit time (sec) : 0.033130
+Avg throughput : 1.007940
+#####################################################
+Server received datagram : 1452901860,843418
+server received datagram no 113 from (10.100.0.11)
+RecvTime : 324238333
+SendTime : 323952538
+Transmit time : 285795
+Avg Transmit time (sec) : 0.304693
+Std Dev Transmit time (sec) : 0.033031
+Avg throughput : 1.007664
+#####################################################
+Server received datagram : 1452901861,847369
+server received datagram no 114 from (10.100.0.11)
+RecvTime : 325249213
+SendTime : 324956489
+Transmit time : 292724
+Avg Transmit time (sec) : 0.304588
+Std Dev Transmit time (sec) : 0.032905
+Avg throughput : 1.007394
+#####################################################
+Server received datagram : 1452901862,851126
+server received datagram no 115 from (10.100.0.11)
+RecvTime : 326260157
+SendTime : 325960246
+Transmit time : 299911
+Avg Transmit time (sec) : 0.304548
+Std Dev Transmit time (sec) : 0.032764
+Avg throughput : 1.007129
+#####################################################
+Server received datagram : 1452901863,874902
+server received datagram no 116 from (10.100.0.11)
+RecvTime : 327259878
+SendTime : 326984022
+Transmit time : 275856
+Avg Transmit time (sec) : 0.304300
+Std Dev Transmit time (sec) : 0.032730
+Avg throughput : 1.006871
+#####################################################
+Server received datagram : 1452901864,898737
+server received datagram no 117 from (10.100.0.11)
+RecvTime : 328312831
+SendTime : 328007857
+Transmit time : 304974
+Avg Transmit time (sec) : 0.304306
+Std Dev Transmit time (sec) : 0.032590
+Avg throughput : 1.006615
+#####################################################
+Server received datagram : 1452901865,902932
+server received datagram no 118 from (10.100.0.11)
+RecvTime : 329302944
+SendTime : 329012052
+Transmit time : 290892
+Avg Transmit time (sec) : 0.304192
+Std Dev Transmit time (sec) : 0.032475
+Avg throughput : 1.006365
+#####################################################
+Server received datagram : 1452901866,906586
+server received datagram no 119 from (10.100.0.11)
+RecvTime : 330355443
+SendTime : 330015706
+Transmit time : 339737
+Avg Transmit time (sec) : 0.304491
+Std Dev Transmit time (sec) : 0.032501
+Avg throughput : 1.006118
+#####################################################
+Server received datagram : 1452901867,929742
+server received datagram no 120 from (10.100.0.11)
+RecvTime : 331302571
+SendTime : 331038862
+Transmit time : 263709
+Avg Transmit time (sec) : 0.304151
+Std Dev Transmit time (sec) : 0.032577
+Avg throughput : 1.005880
+#####################################################
+Server received datagram : 1452901868,934024
+server received datagram no 121 from (10.100.0.11)
+RecvTime : 332354914
+SendTime : 332043144
+Transmit time : 311770
+Avg Transmit time (sec) : 0.304214
+Std Dev Transmit time (sec) : 0.032449
+Avg throughput : 1.005644
+#####################################################
+Server received datagram : 1452901869,958095
+server received datagram no 122 from (10.100.0.11)
+RecvTime : 333365321
+SendTime : 333067215
+Transmit time : 298106
+Avg Transmit time (sec) : 0.304164
+Std Dev Transmit time (sec) : 0.032321
+Avg throughput : 1.005413
+#####################################################
+Server received datagram : 1452901870,981451
+server received datagram no 123 from (10.100.0.11)
+RecvTime : 334370061
+SendTime : 334090571
+Transmit time : 279490
+Avg Transmit time (sec) : 0.303963
+Std Dev Transmit time (sec) : 0.032265
+Avg throughput : 1.005186
+#####################################################
+Server received datagram : 1452901871,984759
+server received datagram no 124 from (10.100.0.11)
+RecvTime : 335422968
+SendTime : 335093879
+Transmit time : 329089
+Avg Transmit time (sec) : 0.304166
+Std Dev Transmit time (sec) : 0.032213
+Avg throughput : 1.004962
+#####################################################
+Server received datagram : 1452901872,985381
+server received datagram no 125 from (10.100.0.11)
+RecvTime : 336412992
+SendTime : 336094501
+Transmit time : 318491
+Avg Transmit time (sec) : 0.304281
+Std Dev Transmit time (sec) : 0.032109
+Avg throughput : 1.004743
+#####################################################
+Server received datagram : 1452901874,9191
+server received datagram no 126 from (10.100.0.11)
+RecvTime : 337463250
+SendTime : 337118311
+Transmit time : 344939
+Avg Transmit time (sec) : 0.304603
+Std Dev Transmit time (sec) : 0.032185
+Avg throughput : 1.004526
+#####################################################
+Server received datagram : 1452901875,13472
+server received datagram no 127 from (10.100.0.11)
+RecvTime : 338410746
+SendTime : 338122592
+Transmit time : 288154
+Avg Transmit time (sec) : 0.304474
+Std Dev Transmit time (sec) : 0.032091
+Avg throughput : 1.004316
+#####################################################
+Server received datagram : 1452901876,36995
+server received datagram no 128 from (10.100.0.11)
+RecvTime : 339426596
+SendTime : 339146115
+Transmit time : 280481
+Avg Transmit time (sec) : 0.304286
+Std Dev Transmit time (sec) : 0.032035
+Avg throughput : 1.004111
+#####################################################
+Server received datagram : 1452901877,60896
+server received datagram no 129 from (10.100.0.11)
+RecvTime : 340437432
+SendTime : 340170016
+Transmit time : 267416
+Avg Transmit time (sec) : 0.304001
+Std Dev Transmit time (sec) : 0.032074
+Avg throughput : 1.003909
+#####################################################
+Server received datagram : 1452901878,84504
+server received datagram no 130 from (10.100.0.11)
+RecvTime : 341490590
+SendTime : 341193624
+Transmit time : 296966
+Avg Transmit time (sec) : 0.303946
+Std Dev Transmit time (sec) : 0.031956
+Avg throughput : 1.003709
+#####################################################
+Server received datagram : 1452901879,88210
+server received datagram no 131 from (10.100.0.11)
+RecvTime : 342459413
+SendTime : 342197330
+Transmit time : 262083
+Avg Transmit time (sec) : 0.303627
+Std Dev Transmit time (sec) : 0.032042
+Avg throughput : 1.003514
+#####################################################
+Server received datagram : 1452901880,111785
+server received datagram no 132 from (10.100.0.11)
+RecvTime : 343533295
+SendTime : 343220905
+Transmit time : 312390
+Avg Transmit time (sec) : 0.303693
+Std Dev Transmit time (sec) : 0.031929
+Avg throughput : 1.003320
+#####################################################
+Server received datagram : 1452901881,135542
+server received datagram no 133 from (10.100.0.11)
+RecvTime : 344632130
+SendTime : 344244662
+Transmit time : 387468
+Avg Transmit time (sec) : 0.304323
+Std Dev Transmit time (sec) : 0.032622
+Avg throughput : 1.003125
+#####################################################
+Server received datagram : 1452901882,159290
+server received datagram no 134 from (10.100.0.11)
+RecvTime : 345537978
+SendTime : 345268410
+Transmit time : 269568
+Avg Transmit time (sec) : 0.304064
+Std Dev Transmit time (sec) : 0.032637
+Avg throughput : 1.002938
+#####################################################
+Server received datagram : 1452901883,162715
+server received datagram no 135 from (10.100.0.11)
+RecvTime : 346612419
+SendTime : 346271835
+Transmit time : 340584
+Avg Transmit time (sec) : 0.304334
+Std Dev Transmit time (sec) : 0.032666
+Avg throughput : 1.002752
+#####################################################
+Server received datagram : 1452901884,186041
+server received datagram no 136 from (10.100.0.11)
+RecvTime : 347623095
+SendTime : 347295161
+Transmit time : 327934
+Avg Transmit time (sec) : 0.304508
+Std Dev Transmit time (sec) : 0.032609
+Avg throughput : 1.002569
+#####################################################
+Server received datagram : 1452901885,210046
+server received datagram no 137 from (10.100.0.11)
+RecvTime : 348634335
+SendTime : 348319166
+Transmit time : 315169
+Avg Transmit time (sec) : 0.304586
+Std Dev Transmit time (sec) : 0.032502
+Avg throughput : 1.002390
+#####################################################
+Server received datagram : 1452901886,233940
+server received datagram no 138 from (10.100.0.11)
+RecvTime : 349646165
+SendTime : 349343060
+Transmit time : 303105
+Avg Transmit time (sec) : 0.304575
+Std Dev Transmit time (sec) : 0.032384
+Avg throughput : 1.002213
+#####################################################
+Server received datagram : 1452901887,237711
+server received datagram no 139 from (10.100.0.11)
+RecvTime : 350683427
+SendTime : 350346831
+Transmit time : 336596
+Avg Transmit time (sec) : 0.304805
+Std Dev Transmit time (sec) : 0.032381
+Avg throughput : 1.002039
+#####################################################
+Server received datagram : 1452901888,261869
+server received datagram no 140 from (10.100.0.11)
+RecvTime : 351695645
+SendTime : 351370989
+Transmit time : 324656
+Avg Transmit time (sec) : 0.304947
+Std Dev Transmit time (sec) : 0.032308
+Avg throughput : 1.001867
+#####################################################
+Server received datagram : 1452901889,286093
+server received datagram no 141 from (10.100.0.11)
+RecvTime : 352750575
+SendTime : 352395213
+Transmit time : 355362
+Avg Transmit time (sec) : 0.305305
+Std Dev Transmit time (sec) : 0.032470
+Avg throughput : 1.001696
+#####################################################
+Server received datagram : 1452901890,309939
+server received datagram no 142 from (10.100.0.11)
+RecvTime : 353743398
+SendTime : 353419059
+Transmit time : 324339
+Avg Transmit time (sec) : 0.305439
+Std Dev Transmit time (sec) : 0.032395
+Avg throughput : 1.001529
+#####################################################
+Server received datagram : 1452901891,313945
+server received datagram no 143 from (10.100.0.11)
+RecvTime : 354754579
+SendTime : 354423065
+Transmit time : 331514
+Avg Transmit time (sec) : 0.305621
+Std Dev Transmit time (sec) : 0.032354
+Avg throughput : 1.001365
+#####################################################
+Server received datagram : 1452901892,338479
+server received datagram no 144 from (10.100.0.11)
+RecvTime : 355807756
+SendTime : 355447599
+Transmit time : 360157
+Avg Transmit time (sec) : 0.306000
+Std Dev Transmit time (sec) : 0.032558
+Avg throughput : 1.001202
+#####################################################
+Server received datagram : 1452901893,362771
+server received datagram no 145 from (10.100.0.11)
+RecvTime : 356798395
+SendTime : 356471891
+Transmit time : 326504
+Avg Transmit time (sec) : 0.306141
+Std Dev Transmit time (sec) : 0.032490
+Avg throughput : 1.001042
+#####################################################
+Server received datagram : 1452901894,366691
+server received datagram no 146 from (10.100.0.11)
+RecvTime : 357809733
+SendTime : 357475811
+Transmit time : 333922
+Avg Transmit time (sec) : 0.306331
+Std Dev Transmit time (sec) : 0.032460
+Avg throughput : 1.000886
+#####################################################
+Server received datagram : 1452901895,391883
+server received datagram no 147 from (10.100.0.11)
+RecvTime : 358796905
+SendTime : 358501003
+Transmit time : 295902
+Avg Transmit time (sec) : 0.306260
+Std Dev Transmit time (sec) : 0.032361
+Avg throughput : 1.000732
+#####################################################
+Server received datagram : 1452901896,415481
+server received datagram no 148 from (10.100.0.11)
+RecvTime : 359796751
+SendTime : 359524601
+Transmit time : 272150
+Avg Transmit time (sec) : 0.306030
+Std Dev Transmit time (sec) : 0.032372
+Avg throughput : 1.000582
+#####################################################
+Server received datagram : 1452901897,419663
+server received datagram no 149 from (10.100.0.11)
+RecvTime : 360849881
+SendTime : 360528783
+Transmit time : 321098
+Avg Transmit time (sec) : 0.306131
+Std Dev Transmit time (sec) : 0.032287
+Avg throughput : 1.000433
+#####################################################
+Server received datagram : 1452901898,423676
+server received datagram no 150 from (10.100.0.11)
+RecvTime : 361840229
+SendTime : 361532796
+Transmit time : 307433
+Avg Transmit time (sec) : 0.306140
+Std Dev Transmit time (sec) : 0.032179
+Avg throughput : 1.000287
+#####################################################
+Server received datagram : 1452901899,447457
+server received datagram no 151 from (10.100.0.11)
+RecvTime : 362851258
+SendTime : 362556577
+Transmit time : 294681
+Avg Transmit time (sec) : 0.306064
+Std Dev Transmit time (sec) : 0.032086
+Avg throughput : 1.000143
+#####################################################
+Server received datagram : 1452901900,451306
+server received datagram no 152 from (10.100.0.11)
+RecvTime : 363883092
+SendTime : 363560426
+Transmit time : 322666
+Avg Transmit time (sec) : 0.306173
+Std Dev Transmit time (sec) : 0.032008
+Avg throughput : 1.000001
+#####################################################
+Server received datagram : 1452901901,475898
+server received datagram no 153 from (10.100.0.11)
+RecvTime : 364914875
+SendTime : 364585018
+Transmit time : 329857
+Avg Transmit time (sec) : 0.306328
+Std Dev Transmit time (sec) : 0.031960
+Avg throughput : 0.999860
+#####################################################
+Server received datagram : 1452901902,479756
+server received datagram no 154 from (10.100.0.11)
+RecvTime : 365904775
+SendTime : 365588876
+Transmit time : 315899
+Avg Transmit time (sec) : 0.306390
+Std Dev Transmit time (sec) : 0.031866
+Avg throughput : 0.999722
+#####################################################
+Server received datagram : 1452901903,486632
+server received datagram no 155 from (10.100.0.11)
+RecvTime : 366936297
+SendTime : 366595752
+Transmit time : 340545
+Avg Transmit time (sec) : 0.306610
+Std Dev Transmit time (sec) : 0.031880
+Avg throughput : 0.999586
+#####################################################
+Server received datagram : 1452901904,490144
+server received datagram no 156 from (10.100.0.11)
+RecvTime : 367925629
+SendTime : 367599264
+Transmit time : 326365
+Avg Transmit time (sec) : 0.306737
+Std Dev Transmit time (sec) : 0.031817
+Avg throughput : 0.999453
+#####################################################
+Server received datagram : 1452901905,498975
+server received datagram no 157 from (10.100.0.11)
+RecvTime : 368915492
+SendTime : 368608095
+Transmit time : 307397
+Avg Transmit time (sec) : 0.306741
+Std Dev Transmit time (sec) : 0.031716
+Avg throughput : 0.999323
+#####################################################
+Server received datagram : 1452901906,501796
+server received datagram no 158 from (10.100.0.11)
+RecvTime : 369926221
+SendTime : 369610916
+Transmit time : 315305
+Avg Transmit time (sec) : 0.306795
+Std Dev Transmit time (sec) : 0.031622
+Avg throughput : 0.999194
+#####################################################
+Server received datagram : 1452901907,525777
+server received datagram no 159 from (10.100.0.11)
+RecvTime : 370978964
+SendTime : 370634897
+Transmit time : 344067
+Avg Transmit time (sec) : 0.307030
+Std Dev Transmit time (sec) : 0.031660
+Avg throughput : 0.999067
+#####################################################
+Server received datagram : 1452901908,529298
+server received datagram no 160 from (10.100.0.11)
+RecvTime : 371968456
+SendTime : 371638418
+Transmit time : 330038
+Avg Transmit time (sec) : 0.307174
+Std Dev Transmit time (sec) : 0.031613
+Avg throughput : 0.998942
+#####################################################
+Server received datagram : 1452901909,533144
+server received datagram no 161 from (10.100.0.11)
+RecvTime : 372957796
+SendTime : 372642264
+Transmit time : 315532
+Avg Transmit time (sec) : 0.307226
+Std Dev Transmit time (sec) : 0.031522
+Avg throughput : 0.998819
+#####################################################
+Server received datagram : 1452901910,558639
+server received datagram no 162 from (10.100.0.11)
+RecvTime : 373968803
+SendTime : 373667759
+Transmit time : 301044
+Avg Transmit time (sec) : 0.307187
+Std Dev Transmit time (sec) : 0.031428
+Avg throughput : 0.998699
+#####################################################
+Server received datagram : 1452901911,582689
+server received datagram no 163 from (10.100.0.11)
+RecvTime : 375021281
+SendTime : 374691809
+Transmit time : 329472
+Avg Transmit time (sec) : 0.307324
+Std Dev Transmit time (sec) : 0.031380
+Avg throughput : 0.998579
+#####################################################
+Server received datagram : 1452901912,586391
+server received datagram no 164 from (10.100.0.11)
+RecvTime : 375998120
+SendTime : 375695511
+Transmit time : 302609
+Avg Transmit time (sec) : 0.307295
+Std Dev Transmit time (sec) : 0.031286
+Avg throughput : 0.998462
+#####################################################
+Server received datagram : 1452901913,610053
+server received datagram no 165 from (10.100.0.11)
+RecvTime : 377029796
+SendTime : 376719173
+Transmit time : 310623
+Avg Transmit time (sec) : 0.307316
+Std Dev Transmit time (sec) : 0.031192
+Avg throughput : 0.998346
+#####################################################
+Server received datagram : 1452901914,633450
+server received datagram no 166 from (10.100.0.11)
+RecvTime : 378040405
+SendTime : 377742570
+Transmit time : 297835
+Avg Transmit time (sec) : 0.307258
+Std Dev Transmit time (sec) : 0.031107
+Avg throughput : 0.998232
+#####################################################
+Server received datagram : 1452901915,657250
+server received datagram no 167 from (10.100.0.11)
+RecvTime : 379081844
+SendTime : 378766370
+Transmit time : 315474
+Avg Transmit time (sec) : 0.307308
+Std Dev Transmit time (sec) : 0.031020
+Avg throughput : 0.998118
+#####################################################
+Server received datagram : 1452901916,659798
+server received datagram no 168 from (10.100.0.11)
+RecvTime : 380092386
+SendTime : 379768918
+Transmit time : 323468
+Avg Transmit time (sec) : 0.307404
+Std Dev Transmit time (sec) : 0.030952
+Avg throughput : 0.998006
+#####################################################
+Server received datagram : 1452901917,663673
+server received datagram no 169 from (10.100.0.11)
+RecvTime : 381083781
+SendTime : 380772793
+Transmit time : 310988
+Avg Transmit time (sec) : 0.307425
+Std Dev Transmit time (sec) : 0.030862
+Avg throughput : 0.997897
+#####################################################
+Server received datagram : 1452901918,667687
+server received datagram no 170 from (10.100.0.11)
+RecvTime : 382082013
+SendTime : 381776807
+Transmit time : 305206
+Avg Transmit time (sec) : 0.307412
+Std Dev Transmit time (sec) : 0.030771
+Avg throughput : 0.997790
+#####################################################
+Server received datagram : 1452901919,691277
+server received datagram no 171 from (10.100.0.11)
+RecvTime : 383092502
+SendTime : 382800397
+Transmit time : 292105
+Avg Transmit time (sec) : 0.307322
+Std Dev Transmit time (sec) : 0.030703
+Avg throughput : 0.997684
+#####################################################
+Server received datagram : 1452901920,714989
+server received datagram no 172 from (10.100.0.11)
+RecvTime : 384145329
+SendTime : 383824109
+Transmit time : 321220
+Avg Transmit time (sec) : 0.307403
+Std Dev Transmit time (sec) : 0.030632
+Avg throughput : 0.997578
+#####################################################
+Server received datagram : 1452901921,738979
+server received datagram no 173 from (10.100.0.11)
+RecvTime : 385239936
+SendTime : 384848099
+Transmit time : 391837
+Avg Transmit time (sec) : 0.307891
+Std Dev Transmit time (sec) : 0.031207
+Avg throughput : 0.997471
+#####################################################
+Server received datagram : 1452901922,743858
+server received datagram no 174 from (10.100.0.11)
+RecvTime : 386145163
+SendTime : 385852978
+Transmit time : 292185
+Avg Transmit time (sec) : 0.307801
+Std Dev Transmit time (sec) : 0.031140
+Avg throughput : 0.997369
+#####################################################
+Server received datagram : 1452901923,767277
+server received datagram no 175 from (10.100.0.11)
+RecvTime : 387179336
+SendTime : 386876397
+Transmit time : 302939
+Avg Transmit time (sec) : 0.307773
+Std Dev Transmit time (sec) : 0.031053
+Avg throughput : 0.997268
+#####################################################
+Server received datagram : 1452901924,791168
+server received datagram no 176 from (10.100.0.11)
+RecvTime : 388231946
+SendTime : 387900288
+Transmit time : 331658
+Avg Transmit time (sec) : 0.307909
+Std Dev Transmit time (sec) : 0.031017
+Avg throughput : 0.997167
+#####################################################
+Server received datagram : 1452901754,560972
+server received datagram no 177 from (10.100.0.11)
+RecvTime : 388695278
+SendTime : 217670092
+Transmit time : 171025186
+Avg Transmit time (sec) : 1.272413
+Std Dev Transmit time (sec) : 12.795634
+Avg throughput : 0.997084
+#####################################################
+Server received datagram : 1452901755,566118
+server received datagram no 178 from (10.100.0.11)
+RecvTime : 388800624
+SendTime : 218675238
+Transmit time : 170125386
+Avg Transmit time (sec) : 2.221026
+Std Dev Transmit time (sec) : 17.946714
+Avg throughput : 0.997031
+#####################################################
+Server received datagram : 1452901925,815108
+server received datagram no 179 from (10.100.0.11)
+RecvTime : 389284860
+SendTime : 388924228
+Transmit time : 360632
+Avg Transmit time (sec) : 2.210632
+Std Dev Transmit time (sec) : 17.897051
+Avg throughput : 0.996993
+#####################################################
+Server received datagram : 1452901926,819231
+server received datagram no 180 from (10.100.0.11)
+RecvTime : 390253441
+SendTime : 389928351
+Transmit time : 325090
+Avg Transmit time (sec) : 2.200157
+Std Dev Transmit time (sec) : 17.847818
+Avg throughput : 0.996958
+#####################################################
+Server received datagram : 1452901927,842960
+server received datagram no 181 from (10.100.0.11)
+RecvTime : 391265471
+SendTime : 390952080
+Transmit time : 313391
+Avg Transmit time (sec) : 2.189733
+Std Dev Transmit time (sec) : 17.798996
+Avg throughput : 0.996923
+#####################################################
+Server received datagram : 1452901928,866487
+server received datagram no 182 from (10.100.0.11)
+RecvTime : 392297182
+SendTime : 391975607
+Transmit time : 321575
+Avg Transmit time (sec) : 2.179468
+Std Dev Transmit time (sec) : 17.750567
+Avg throughput : 0.996887
+#####################################################
+Server received datagram : 1452901929,878605
+server received datagram no 183 from (10.100.0.11)
+RecvTime : 393268018
+SendTime : 392987725
+Transmit time : 280293
+Avg Transmit time (sec) : 2.169090
+Std Dev Transmit time (sec) : 17.702556
+Avg throughput : 0.996854
+#####################################################
+Server received datagram : 1452901930,902743
+server received datagram no 184 from (10.100.0.11)
+RecvTime : 394320817
+SendTime : 394011863
+Transmit time : 308954
+Avg Transmit time (sec) : 2.158981
+Std Dev Transmit time (sec) : 17.654915
+Avg throughput : 0.996819
+#####################################################
+Server received datagram : 1452901931,926158
+server received datagram no 185 from (10.100.0.11)
+RecvTime : 395352255
+SendTime : 395035278
+Transmit time : 316977
+Avg Transmit time (sec) : 2.149024
+Std Dev Transmit time (sec) : 17.607652
+Avg throughput : 0.996784
+#####################################################
+Server received datagram : 1452901932,933304
+server received datagram no 186 from (10.100.0.11)
+RecvTime : 396321930
+SendTime : 396042424
+Transmit time : 279506
+Avg Transmit time (sec) : 2.138973
+Std Dev Transmit time (sec) : 17.560788
+Avg throughput : 0.996750
+#####################################################
+Server received datagram : 1452901933,937040
+server received datagram no 187 from (10.100.0.11)
+RecvTime : 397374355
+SendTime : 397046160
+Transmit time : 328195
+Avg Transmit time (sec) : 2.129290
+Std Dev Transmit time (sec) : 17.514269
+Avg throughput : 0.996716
+#####################################################
+Server received datagram : 1452901934,940728
+server received datagram no 188 from (10.100.0.11)
+RecvTime : 398363890
+SendTime : 398049848
+Transmit time : 314042
+Avg Transmit time (sec) : 2.119634
+Std Dev Transmit time (sec) : 17.468126
+Avg throughput : 0.996682
+#####################################################
+Server received datagram : 1452901935,944034
+server received datagram no 189 from (10.100.0.11)
+RecvTime : 399374392
+SendTime : 399053154
+Transmit time : 321238
+Avg Transmit time (sec) : 2.110119
+Std Dev Transmit time (sec) : 17.422341
+Avg throughput : 0.996649
+#####################################################
+Server received datagram : 1452901936,966920
+server received datagram no 190 from (10.100.0.11)
+RecvTime : 400364380
+SendTime : 400076040
+Transmit time : 288340
+Avg Transmit time (sec) : 2.100530
+Std Dev Transmit time (sec) : 17.376932
+Avg throughput : 0.996617
+#####################################################
+Server received datagram : 1452901937,970685
+server received datagram no 191 from (10.100.0.11)
+RecvTime : 401375258
+SendTime : 401079805
+Transmit time : 295453
+Avg Transmit time (sec) : 2.091080
+Std Dev Transmit time (sec) : 17.331873
+Avg throughput : 0.996585
+#####################################################
+Server received datagram : 1452901938,975474
+server received datagram no 192 from (10.100.0.11)
+RecvTime : 402364784
+SendTime : 402084594
+Transmit time : 280190
+Avg Transmit time (sec) : 2.081648
+Std Dev Transmit time (sec) : 17.287170
+Avg throughput : 0.996554
+#####################################################
+Server received datagram : 1452901939,978744
+server received datagram no 193 from (10.100.0.11)
+RecvTime : 403375650
+SendTime : 403087864
+Transmit time : 287786
+Avg Transmit time (sec) : 2.072353
+Std Dev Transmit time (sec) : 17.242807
+Avg throughput : 0.996523
+#####################################################
+Server received datagram : 1452901940,985707
+server received datagram no 194 from (10.100.0.11)
+RecvTime : 404407291
+SendTime : 404094827
+Transmit time : 312464
+Avg Transmit time (sec) : 2.063282
+Std Dev Transmit time (sec) : 17.198772
+Avg throughput : 0.996492
+#####################################################
+Server received datagram : 1452901941,989824
+server received datagram no 195 from (10.100.0.11)
+RecvTime : 405417920
+SendTime : 405098944
+Transmit time : 318976
+Avg Transmit time (sec) : 2.054337
+Std Dev Transmit time (sec) : 17.155068
+Avg throughput : 0.996462
+#####################################################
+Server received datagram : 1452901942,994941
+server received datagram no 196 from (10.100.0.11)
+RecvTime : 406386627
+SendTime : 406104061
+Transmit time : 282566
+Avg Transmit time (sec) : 2.045297
+Std Dev Transmit time (sec) : 17.111715
+Avg throughput : 0.996432
+#####################################################
+Server received datagram : 1452901943,998327
+server received datagram no 197 from (10.100.0.11)
+RecvTime : 407376328
+SendTime : 407107447
+Transmit time : 268881
+Avg Transmit time (sec) : 2.036280
+Std Dev Transmit time (sec) : 17.068695
+Avg throughput : 0.996404
+#####################################################

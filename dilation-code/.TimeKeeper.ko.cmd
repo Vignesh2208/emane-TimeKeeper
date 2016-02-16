@@ -1,1 +1,0 @@
-cmd_/home/vignesh/s3fnet-lxc/dilation-code/TimeKeeper.ko := ld -r -m elf_i386 -T /src/linux-3.13.1/scripts/module-common.lds --build-id  -o /home/vignesh/s3fnet-lxc/dilation-code/TimeKeeper.ko /home/vignesh/s3fnet-lxc/dilation-code/TimeKeeper.o /home/vignesh/s3fnet-lxc/dilation-code/TimeKeeper.mod.o
