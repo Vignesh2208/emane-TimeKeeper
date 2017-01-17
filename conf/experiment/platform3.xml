@@ -7,7 +7,7 @@
 	<param name="eventservicegroup" value="224.1.2.4:45703"/>
 	<param name="eventservicedevice" value="eth1"/>
         <param name="controlportendpoint" value="0.0.0.0:47000"/>
-	<nem id="3" definition="expnem.xml">
+	<nem id="3" definition="expnem.xml" transport="external" >
 		<param name="platformendpoint" value="localhost:8201"/>
 		<param name="transportendpoint" value="localhost:8301"/>
 		<transport definition="transvirtual.xml">

@@ -16,8 +16,8 @@ script_path_list = script_path.split('/')
 root_directory = "/"
 for entry in script_path_list :
 	
-	if entry == "emane-Timekeeper" :
-		root_directory = root_directory + "emane-Timekeeper"
+	if entry == "emane-TimeKeeper" :
+		root_directory = root_directory + "emane-TimeKeeper"
 		break
 	else :
 		if len(entry) > 0 :

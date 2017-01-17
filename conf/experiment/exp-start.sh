@@ -10,7 +10,7 @@ else
 fi
 
 DEFAULT_OUTPUT_ROOT=/tmp/emane
-DEFAULT_EMANE_XML_ROOT=/home/vignesh/Desktop/emane-Timekeeper/conf/experiment
+DEFAULT_EMANE_XML_ROOT=/home/user/Desktop/emane-TimeKeeper/conf/experiment
 
 
 DEFAULT_DELAY=0			# WAS 30 BEFORE

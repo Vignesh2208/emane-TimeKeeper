@@ -1,0 +1,12 @@
+Starting...
+Monitoring : emane0, Src IP : 10.100.0.1, Dst IP 10.100.0.3
+Started at, localtime: 3:43:37 349415, orig_time : 3:43:37 349415
+emane0:Device found
+
+bmf0:
+nflog:
+nfqueue:
+eth1:
+any:
+lo:
+Device ip address: 10.100.0.3

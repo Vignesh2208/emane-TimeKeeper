@@ -2,4 +2,4 @@
 
 NODEID=@NODEID@
 
-lxc-stop -k -n node-$NODEID &> /dev/null
+lxc-stop -n node-$NODEID &> /dev/null

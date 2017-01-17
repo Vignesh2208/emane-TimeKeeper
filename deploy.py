@@ -111,7 +111,7 @@ def generate_platformxml(nem_id,otamanagerdevice,otamanagergroup,otamanagerttl,o
 
 	platformxml += \
 	"""
-	<nem id=\"""" + str(nem_id) + "\" definition=\"expnem.xml\">" 
+	<nem id=\"""" + str(nem_id) + "\" definition=\"expnem.xml\" transport=\"external\" >" 
     	
 	platformxml += \
 	"""
@@ -194,13 +194,13 @@ def generate_expnemxml(transportdef,macdef,phydef) :
 	expnemxml += \
 	"""
 <nem name="EXP NEM">
-	<mac definition=""" + "\"" + macdef + ".xml\"/>"
+	<transport definition=""" + "\"" + transportdef + ".xml\"/>"
+	expnemxml += \
+	"""
+	<mac definition=""" + "\""+ macdef + ".xml\"/>"
 	expnemxml += \
 	"""
 	<phy definition=""" + "\""+ phydef + ".xml\"/>"
-	expnemxml += \
-	"""
-	<transport definition=""" + "\""+ transportdef + ".xml\"/>"
 	expnemxml += \
 	"""
 </nem>

@@ -4,7 +4,7 @@ defns:
 	python definitions.py
 
 Timekeeper:
-	cd dilation-code; make 
+	cd dilation-code; sudo make build; sudo make install 
 
 lxc_command:	
 	cd lxc-command; make

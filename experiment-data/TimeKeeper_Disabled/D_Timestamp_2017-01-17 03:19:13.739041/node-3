@@ -1,0 +1,5 @@
+Starting Debug for node-3
+SIOCSARP: Invalid argument
+arp: cannot set entry on line 3 of etherfile /home/user/Desktop/emane-TimeKeeper/conf/experiment/arp_table.txt !
+Running Command /home/user/Desktop/emane-TimeKeeper/tests/large_linear//lxc-command/client radio-1 25000 1000 emane0 10.100.0.1 10.100.0.3 1000000
+sh: 1: /home/user/Desktop/emane-TimeKeeper/tests/large_linear//lxc-command/client: not found

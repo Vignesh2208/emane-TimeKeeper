@@ -1,0 +1,94 @@
+Starting Debug for node-1
+SIOCSARP: Invalid argument
+arp: cannot set entry on line 1 of etherfile /home/user/Desktop/emane-TimeKeeper/conf/experiment/arp_table.txt !
+Running Command /home/user/Desktop/emane-TimeKeeper/lxc-command/server 25000 1000 emane0 10.100.0.3 10.100.0.1
+Server received datagram : 1484656990,810155
+server received datagram no 1 from (10.100.0.3)
+RecvTime : 1484656990824988
+SendTime : 1484656990810155
+Transmit time : 14833
+Avg Transmit time (sec) : 0.014833
+Std Dev Transmit time (sec) : 0.000000
+Avg throughput : 61.923340
+#####################################################
+Server received datagram : 1484656991,818249
+server received datagram no 2 from (10.100.0.3)
+RecvTime : 1484656991830239
+SendTime : 1484656991818249
+Transmit time : 11990
+Avg Transmit time (sec) : 0.013411
+Std Dev Transmit time (sec) : 0.001421
+Avg throughput : 31.940718
+#####################################################
+Server received datagram : 1484656992,819200
+server received datagram no 3 from (10.100.0.3)
+RecvTime : 1484656992835309
+SendTime : 1484656992819200
+Transmit time : 16109
+Avg Transmit time (sec) : 0.014311
+Std Dev Transmit time (sec) : 0.001722
+Avg throughput : 21.787281
+#####################################################
+Server received datagram : 1484656993,823162
+server received datagram no 4 from (10.100.0.3)
+RecvTime : 1484656993843223
+SendTime : 1484656993823162
+Transmit time : 20061
+Avg Transmit time (sec) : 0.015748
+Std Dev Transmit time (sec) : 0.002902
+Avg throughput : 16.670017
+#####################################################
+Server received datagram : 1484656994,832936
+server received datagram no 5 from (10.100.0.3)
+RecvTime : 1484656994851066
+SendTime : 1484656994832936
+Transmit time : 18130
+Avg Transmit time (sec) : 0.016225
+Std Dev Transmit time (sec) : 0.002765
+Avg throughput : 13.583402
+#####################################################
+Server received datagram : 1484656995,834035
+server received datagram no 6 from (10.100.0.3)
+RecvTime : 1484656995846763
+SendTime : 1484656995834035
+Transmit time : 12728
+Avg Transmit time (sec) : 0.015642
+Std Dev Transmit time (sec) : 0.002841
+Avg throughput : 11.517996
+#####################################################
+Server received datagram : 1484656996,837962
+server received datagram no 7 from (10.100.0.3)
+RecvTime : 1484656996850935
+SendTime : 1484656996837962
+Transmit time : 12973
+Avg Transmit time (sec) : 0.015261
+Std Dev Transmit time (sec) : 0.002791
+Avg throughput : 10.038074
+#####################################################
+Server received datagram : 1484656997,840155
+server received datagram no 8 from (10.100.0.3)
+RecvTime : 1484656997852592
+SendTime : 1484656997840155
+Transmit time : 12437
+Avg Transmit time (sec) : 0.014908
+Std Dev Transmit time (sec) : 0.002773
+Avg throughput : 8.925284
+#####################################################
+Server received datagram : 1484656998,843803
+server received datagram no 9 from (10.100.0.3)
+RecvTime : 1484656998855937
+SendTime : 1484656998843803
+Transmit time : 12134
+Avg Transmit time (sec) : 0.014599
+Std Dev Transmit time (sec) : 0.002756
+Avg throughput : 8.057854
+#####################################################
+Server received datagram : 1484656999,844204
+server received datagram no 10 from (10.100.0.3)
+RecvTime : 1484656999859333
+SendTime : 1484656999844204
+Transmit time : 15129
+Avg Transmit time (sec) : 0.014652
+Std Dev Transmit time (sec) : 0.002619
+Avg throughput : 7.362560
+#####################################################
