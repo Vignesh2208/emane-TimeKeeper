@@ -837,10 +837,10 @@ def send_command_to_node(node_name,cmd) :
 def start_LXCs() :
 	if ENABLE_TIMEKEEPER == 1 :
 		print "Removing Timekeeper module"
-		os.system("rmmod " + cwd + "/dilation-code/TimeKeeper.ko")
+		os.system("rmmod " + cwd + "/dilation-code/build/TimeKeeper.ko")
 		time.sleep(1)
 		print"Inseting Timekeeper module"
-		os.system("insmod " + cwd + "/dilation-code/TimeKeeper.ko")
+		os.system("insmod " + cwd + "/dilation-code/build/TimeKeeper.ko")
 		time.sleep(1)
 
 	print "Starting LXCs"

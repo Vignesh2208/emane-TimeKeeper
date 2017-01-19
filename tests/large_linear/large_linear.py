@@ -56,7 +56,7 @@ if n_nodes % 2 == 0 :
 
 
 alt_cmd = cmd_directory + "/print_time "
-cmd = "sudo nice -n -20 su -c " + root_directory + "/dilation-code/scripts/print_time"
+cmd = "sudo nice -n -20 su -c " + root_directory + "/dilation-code/scripts/bin/print_time"
 
 
 # Current configuration - node-1 runs server, last node runs client which sends ping to server.
