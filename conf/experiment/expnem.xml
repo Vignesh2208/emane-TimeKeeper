@@ -2,7 +2,7 @@
 <!DOCTYPE nem SYSTEM "file:///usr/share/emane/dtd/nem.dtd">
 <nem name="EXP NEM">
 	<transport definition="transvirtual.xml"/>
-	<mac definition="ieee80211abgmac.xml"/>
+	<mac definition="rfpipe.xml"/>
 	<phy definition="universalphy.xml"/>
 </nem>
 	

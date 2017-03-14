@@ -1,3 +1,0 @@
-Starting Debug for node-3
-SIOCSARP: Invalid argument
-arp: cannot set entry on line 3 of etherfile /home/user/Desktop/emane-TimeKeeper/conf/experiment/arp_table.txt !

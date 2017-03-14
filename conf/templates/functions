@@ -9,7 +9,7 @@ start_emanetransportd()
 
         echo "Starting emanetransport: $xml"
 
-        emanetransportd -r -d "$xml" -l 4 -f "$log"
+        #emanetransportd -r -d "$xml" -l 4 -f "$log"
 
         retval=$?
     else

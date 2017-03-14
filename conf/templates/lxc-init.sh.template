@@ -125,6 +125,9 @@ fi
 wait_for_decive emane0 10
 
 sudo @ROUTINGCOMMAND@ "$ROUTING_CONF_SPECIFIC" >> "$ROUTING_LOG_FILE" 2>&1
+#sudo nice -20 su -c 'olsrd -f /home/user/Desktop/emane-TimeKeeper/conf/experiment/routing@NODEID@.conf' >> "$ROUTING_LOG_FILE" 2>&1 
+#sudo olsrd -f /home/user/Desktop/emane-TimeKeeper/conf/experiment/routing@NODEID@.conf >> "$ROUTING_LOG_FILE" 2>&1
+
 
 #sudo arp -f "$EMANE_EXP_ROOT/arp_table.txt" >> "$EMANE_EXP_ROOT/arp_error_log$NODEID.txt" 2>&1
 

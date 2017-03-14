@@ -16,6 +16,7 @@ import time
 from emanesh.events import EventService
 from emanesh.events import LocationEvent
 from emanesh.events import PathlossEvent
+import datetime
 from datetime import datetime
 import subprocess
 import signal
@@ -109,17 +110,21 @@ def generate_platformxml(nem_id,otamanagerdevice,otamanagergroup,otamanagerttl,o
         """
         <param name="controlportendpoint" value="0.0.0.0:47000"/>"""
 
-	platformxml += \
-	"""
-	<nem id=\"""" + str(nem_id) + "\" definition=\"expnem.xml\" transport=\"external\" >" 
-    	
-	platformxml += \
-	"""
-		<param name="platformendpoint" value=""" + "\"localhost:" + str(platformendpoint_base) + "\"/>"
+	#platformxml += \
+	#"""
+	#<nem id=\"""" + str(nem_id) + "\" definition=\"expnem.xml\" transport=\"external\" >" 
 
 	platformxml += \
 	"""
-		<param name="transportendpoint" value=""" + "\"localhost:" + str(transportendpoint_base) + "\"/>"
+	<nem id=\"""" + str(nem_id) + "\" definition=\"expnem.xml\">" 
+    	
+	#platformxml += \
+	#"""
+	#	<param name="platformendpoint" value=""" + "\"localhost:" + str(platformendpoint_base + nem_id) + "\"/>"
+
+	#platformxml += \
+	#"""
+	#	<param name="transportendpoint" value=""" + "\"localhost:" + str(transportendpoint_base + nem_id) + "\"/>"
 
 	platformxml += \
 	"""
@@ -157,11 +162,11 @@ def generate_transportdaemonxml(nem_id,transportdef) :
 
 	transportdaemonxml += \
 	"""
-		<param name="platformendpoint" value=""" + "\"localhost:" + str(platformendpoint_base) + "\"/>"
+		<param name="platformendpoint" value=""" + "\"localhost:" + str(platformendpoint_base + nem_id) + "\"/>"
 
 	transportdaemonxml += \
 	"""
-		<param name="transportendpoint" value=""" + "\"localhost:" + str(transportendpoint_base) + "\"/>"
+		<param name="transportendpoint" value=""" + "\"localhost:" + str(transportendpoint_base + nem_id) + "\"/>"
 
 	transportdaemonxml += \
 	"""
@@ -990,12 +995,12 @@ def main():
         service.publish(0,event)
 
         time.sleep(2)
-        print "Location events published. All nodes set to initial positions. Waiting for 25 sec for routing updates to stabilize"
+        print "Location events published. All nodes set to initial positions. Waiting for 30 sec for routing updates to stabilize"
 	time.sleep(30)
 
 	# Timekeeper portion
-	freeze_quantum = timeslice/2 		  # in nano seconds
-	freeze_quantum = freeze_quantum/1000000   # in micro seconds
+	freeze_quantum = timeslice 		  # in nano seconds
+	
 	nemid = 1
 	
 	
@@ -1048,7 +1053,7 @@ def main():
 		pid = getpidfromname("node-" + str(1))
 		start_time = int(subprocess.check_output([cwd + "/lxc-command/gettimepid", str(pid)]))
 		prev_time = start_time
-		print "Experiment start time", start_time
+		print "Experiment start time", start_time, " local Time = " + str(datetime.now()) 
 		startExp()
 	else :
 		print "Experiment Started with TimeKeeper disabled - Ignoring TDF settings"
@@ -1085,7 +1090,7 @@ def main():
 		pass	
 	
 	# stop Exp
-	print "Stopping Synchronized experiment"
+	print "Stopping Synchronized experiment, local time = " + str(datetime.now())
 	if ENABLE_TIMEKEEPER == 1 :
 		stopExp()	
 		time.sleep(30)

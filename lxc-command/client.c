@@ -84,7 +84,7 @@ int main(int argc, char **argv) {
         exit(0);
     }
 
-    pid = fork();
+    /*pid = fork();
     if (pid == 0) { //in child
 		
 		    sprintf(command, "echo Starting... > %s/client_log.txt", PATH_TO_EXPERIMENT_DATA);
@@ -93,7 +93,7 @@ int main(int argc, char **argv) {
 		    sprintf(command, "%s/lxc-command/pcap_packet_sniffer %s %s %s >> %s/client_log.txt 2>&1", EMANE_DIR, dev_name, src_ip_to_monitor, dst_ip_to_monitor,PATH_TO_EXPERIMENT_DATA);
 		    system(command);
 		    return 0;
-     }
+     }*/
 
     /* build the server's Internet address */
     bzero((char *) &serveraddr, sizeof(serveraddr));
@@ -112,13 +112,16 @@ int main(int argc, char **argv) {
     	//FILE *fp;
 	// Enter your fav path here.
 	//fp = fopen("<path>/client.txt","a");
+
+	printf("Process PID = %d\n",getpid());
+	fflush(stdout);
    
 	int j  = 0;
+	int k = 0;
 	for (cc = 0; cc < numMessages; cc++)
 	{
 		
 		bzero(buf, BUFSIZE);
-		//sprintf(buf, "Ping SEQ %.4d", cc);
 
 		/* send the message to the server */
 
@@ -134,17 +137,14 @@ int main(int argc, char **argv) {
 		n = sendto(sockfd, buf, BUFSIZE, 0, &serveraddr, serverlen);
 		
 		fprintf(stdout,"Sent ping message no : %d\n", cc);
-		usleep(1000000);
-		//usleep(timeout);
-		//usleep(200000);
-
 		fflush(stdout);
+		usleep(500000);
+		//for(k=0; k < 100000000; k++);
+
+
+		//for(k = 0; k < 100000000; k++);
 		flush_buffer(buf,BUFSIZE);
 
-		//For debugging SocketHook		
-		gettimeofday(&JAS_Timestamp,NULL);
-		//fprintf(fp,"Send secs = %d, Send usecs = %d, JAS secs = %d, JAS usecs = %d\n",sendTimeStamp.tv_sec,sendTimeStamp.tv_usec, JAS_Timestamp.tv_sec, JAS_Timestamp.tv_usec);
-		
 		if (n < 0){ 
 			// fOR DEBUGGING SOCKEThOOK
 			//fclose(fp);
@@ -153,19 +153,7 @@ int main(int argc, char **argv) {
 		
 		
 		/* print the server's reply */
-		//n = recvfrom(sockfd, buf, strlen(buf), 0, &serveraddr, &serverlen);
-
-		//struct timeval receiveTimestamp;
-		//gettimeofday(&receiveTimestamp, NULL);
-		//long recvTS = receiveTimestamp.tv_sec * 1000000 + receiveTimestamp.tv_usec;
-		//printf("%ld\n", recvTS - sendTS);
-
-		//if (n < 0) {
-			//For debugging SocketHook
-			//fclose(fp);
-		//  error("ERROR in recvfrom");
-		//}
-		//printf("Echo from server: %s\n", buf);
+		
 	
 	}
 

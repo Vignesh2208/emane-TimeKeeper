@@ -10,6 +10,6 @@
   <param name="pcrcurveuri"
          value="file:///usr/share/emane/xml/models/mac/ieee80211abg/ieee80211pcr.xml"/>
   <param name="flowcontrolenable"     value="off"/>
-  <param name="flowcontroltokens"     value="10"/>
-  <param name="radiometricenable"     value="on"/>
+  <param name="flowcontroltokens"     value="0"/>
+  <param name="radiometricenable"     value="off"/>
 </mac>

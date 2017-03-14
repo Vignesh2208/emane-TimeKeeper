@@ -1,4 +1,0 @@
-Conf file path : /home/vignesh/Desktop/emane-Timekeeper/tests/large_linear/emane.conf
-Node Conf file : /home/vignesh/Desktop/emane-Timekeeper/tests/large_linear/node.conf
-Run time       : 10.0
-N_nodes        : 3

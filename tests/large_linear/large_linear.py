@@ -35,8 +35,8 @@ cmd_directory  = root_directory + "/lxc-command"
 
 ################################################# CONFIGURATION ######################################################
 
-dilation 			= 5
-n_nodes 			= 3					# Converted to nearest odd number
+dilation 			= 2
+n_nodes 			= 10					# Converted to nearest odd number
 run_time 			= 10					# virtual run time (in secs)
 routing_monitor_run_time 	= 150					# used only when routing monitor is run as the alt_cmd
 
@@ -55,9 +55,16 @@ if n_nodes % 2 == 0 :
 	n_nodes = n_nodes + 1
 
 
-alt_cmd = cmd_directory + "/print_time "
+#alt_cmd = cmd_directory + "/thread_spawner "
+alt_cmd = root_directory + "/dilation-code/scripts/bin/print_time"
 cmd = "sudo nice -n -20 su -c " + root_directory + "/dilation-code/scripts/bin/print_time"
 
+#cmd = "sudo python " + cmd_directory + "/sleeper.py"
+#cmd = "sudo " + cmd_directory +"/test"
+cmd = "sudo tcpdump -i eth0 -w " + cmd_directory + "/tmp.pcap &"
+alt_cmd = "sudo " + cmd_directory +"/test"
+#cmd = "sudo nice -n -20 su -c " + cmd_directory + "/thread_spawner"
+#cmd = alt_cmd
 
 # Current configuration - node-1 runs server, last node runs client which sends ping to server.
 # Every other even id node runs cmd defined in variable cmd.
@@ -74,7 +81,7 @@ eventmanagergroup		=	224.1.2.4:45703
 eventmanagerttl			=	1
 antennaprofilemanifesturi	=
 transportdef			=	transvirtual
-macdef				=	ieee80211abgmac
+macdef				=	rfpipe
 phydef				=	universalphy
 bandwidth			=	1000000
 min_pkt_size			=	1200
@@ -144,19 +151,21 @@ with open("node.conf", "a") as f :
 	while i <= n_nodes :		
 
 		if i == 1 :
-			curr_cmd = cmd_directory + "/server 25000 1000 emane0 " + str(client_node_IP) + " " + str(server_node_IP)
+			#curr_cmd = cmd_directory + "/server 25000 " + str(run_time-5) +  " emane0 " + str(client_node_IP) + " " + str(server_node_IP)
+			curr_cmd = cmd
 			curr_dilation = dilation
 			
 		elif i == n_nodes :
-			curr_cmd = cmd_directory + "/client radio-1 25000 1000 emane0 " + str(server_node_IP) + " " + str(client_node_IP) + " " + str(msg_send_timeout)
+			curr_cmd = cmd_directory + "/client radio-1 25000 " + str(run_time-5) + " emane0 " + str(server_node_IP) + " " + str(client_node_IP) + " " + str(msg_send_timeout)
+			#curr_cmd = alt_cmd
 			curr_dilation = dilation
 		else :
 
 			if i % 2 == 1 :
-				curr_cmd = alt_cmd + Int2IP(IP2Int(radio_IP_addr_start) + i)  + " " + str(n_nodes) + " " + str(routing_monitor_run_time)
+				curr_cmd = alt_cmd + " " + Int2IP(IP2Int(radio_IP_addr_start) + i)  + " " + str(n_nodes) + " " + str(routing_monitor_run_time)
 				curr_dilation = dilation			
 			else :
-				curr_cmd = cmd				
+				curr_cmd = alt_cmd				
 				curr_dilation = dilation
 	
 		curr_line = str(i) + ",		" + str(lattitude) + ",		" + str(longitude_start + i*longitude_increment) + ",		" + str(altitude) + ",		" + str(curr_dilation) + ",		" + curr_cmd + "\n"

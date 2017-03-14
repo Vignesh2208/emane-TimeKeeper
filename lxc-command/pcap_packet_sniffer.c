@@ -355,8 +355,8 @@ void my_callback(const struct pcap_pkthdr* pkthdr,const u_char*  packet,FILE* fp
 
 	gettimeofday(&now, NULL);
 	gettimeofdayoriginal(&now1, NULL);
-        gettimeofday(&later, NULL);
-        gettimeofdayoriginal(&later1, NULL);
+    gettimeofday(&later, NULL);
+    gettimeofdayoriginal(&later1, NULL);
 	localtime_r(&(later.tv_sec), &localtm);
 	localtime_r(&(later1.tv_sec),&origtm);
 	//fprintf(fp,"Arrival from %s, localtime: %d:%02d:%02d %ld, orig_time : %d:%02d:%02d %ld\n", src_ip, localtm.tm_hour, localtm.tm_min, localtm.tm_sec, later.tv_usec, origtm.tm_hour, origtm.tm_min, origtm.tm_sec, later1.tv_usec);
@@ -368,8 +368,8 @@ void my_callback(const struct pcap_pkthdr* pkthdr,const u_char*  packet,FILE* fp
 
 	gettimeofday(&now, NULL);
 	gettimeofdayoriginal(&now1, NULL);
-        gettimeofday(&later, NULL);
-        gettimeofdayoriginal(&later1, NULL);
+    gettimeofday(&later, NULL);
+    gettimeofdayoriginal(&later1, NULL);
 	localtime_r(&(later.tv_sec), &localtm);
 	localtime_r(&(later1.tv_sec),&origtm);
 	//fprintf(fp,"Send from %s at, localtime: %d:%02d:%02d %ld, orig_time : %d:%02d:%02d %ld\n", src_ip, localtm.tm_hour, localtm.tm_min, localtm.tm_sec, later.tv_usec, origtm.tm_hour, origtm.tm_min, origtm.tm_sec, later1.tv_usec);
@@ -407,8 +407,8 @@ void my_callback(const struct pcap_pkthdr* pkthdr,const u_char*  packet,FILE* fp
 
 				gettimeofday(&now, NULL);
 				gettimeofdayoriginal(&now1, NULL);
-        			gettimeofday(&later, NULL);
-        			gettimeofdayoriginal(&later1, NULL);
+        	    gettimeofday(&later, NULL);
+        	    gettimeofdayoriginal(&later1, NULL);
 				localtime_r(&(later.tv_sec), &localtm);
 				localtime_r(&(later1.tv_sec),&origtm);
 				fprintf(fp,"Received at, localtime: %d:%02d:%02d %ld, orig_time : %d:%02d:%02d %ld\n", localtm.tm_hour, localtm.tm_min, localtm.tm_sec, later.tv_usec, origtm.tm_hour, origtm.tm_min, origtm.tm_sec, later1.tv_usec);
@@ -481,7 +481,7 @@ void my_callback(const struct pcap_pkthdr* pkthdr,const u_char*  packet,FILE* fp
 pcap_t* producer_init(FILE* fp){
 
 	int found = 0;
-        pcap_if_t *alldevs;
+    pcap_if_t *alldevs;
 	pcap_if_t *d;
 	pcap_addr_t *a;
 	pcap_t* descr;
