@@ -35,7 +35,7 @@ cmd_directory  = root_directory + "/lxc-command"
 
 ################################################# CONFIGURATION ######################################################
 
-dilation 					= 2
+dilation 					= 1
 n_nodes 					= 40	
 run_time 					= 50					# virtual run time (in secs)
 routing_monitor_run_time 	= 150					# used only when routing monitor is run as the alt_cmd

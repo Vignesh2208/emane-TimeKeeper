@@ -9,6 +9,5 @@
     <param name="propagationmodel"           value="precomputed"/>
     <param name="txpower"                    value="0.0"/>
     <param name="subid"                      value="1"/>
-    <param name="timesyncthreshold"			 value="1"/>
 </phy>
 
