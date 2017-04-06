@@ -1,0 +1,154 @@
+#!/bin/bash -
+
+start_emanetransportd()
+{
+    local xml=$1
+    local log=$2
+    
+    if [ -f $xml ]; then
+
+        echo "Starting emanetransport: $xml"
+
+        #emanetransportd -r -d "$xml" -l 4 -f "$log"
+
+        retval=$?
+    else
+
+        echo "Missing emaneeventd XML: $xml"
+
+        retval=1
+    fi
+    
+    return $retval
+}
+
+start_emaneeventd_and_wait_for_gpspty()
+{
+    local xml=$1
+    local log=$2
+    local pty=$3
+    
+    if [ -f $xml ]; then
+
+        echo "Starting emaneeventd: $xml"
+
+        sudo emaneeventd -d "$xml" -l 4 -f "$log"
+
+        retval=$?
+        
+        if [[ $retval == 0 ]]; then
+
+            echo "Waiting for GPS Locatopn PTY: $pty"
+            
+            while (! test -f "$pty")
+            do
+                sleep 1
+            done
+        fi
+        
+    else
+        echo "Missing emaneeventd XML: $xml"
+        retval=1
+    fi
+
+    return $retval
+}
+
+start_emane()
+{
+    local xml=$1
+    local log=$2
+
+    if [ -f $xml ]; then
+
+        echo "Starting emane: $xml"
+        sudo emane "$xml" -r -d -l 4 -f "$log"
+        retval=$?
+    else
+        echo "Missing emane XML: $xml"
+        retval=1
+    fi
+    
+    return $retval
+}
+
+start_routing()
+{
+    local routingcommand=$1
+    local routingconf=$2
+    $routingcommand "$routingconf"
+}
+
+start_sshd()
+{
+    local pidfile=$1
+    
+    /usr/sbin/sshd -o "PidFile=$pidfile"
+}
+
+start_mgen()
+{
+    local mgeninput=$1
+    local mgenoutput=$2
+    local starttime=$3
+
+    local startoption=""
+
+    if [ -n "$starttime" ]; then
+        startoption="start $starttime"
+        echo "Starting mgen: input $mgeninput output $mgenoutput at $starttime"
+    else
+        echo "Starting mgen: input $mgeninput output $mgenoutput now"
+    fi
+
+    mgen                   \
+        input $mgeninput   \
+        output $mgenoutput \
+        $startoption       \
+        txlog &
+}
+
+start_gpsd()
+{
+    local pty=$1
+
+    echo "Starting gpsd: $pty"
+    sudo gpsd -G -n -b `cat $pty`
+}
+
+wait_for_device()
+{
+    local device=$1
+    local timeout=$2
+    local waited=0
+
+    echo -n "waiting for $device..."
+
+    while(! route -n | grep -q $device); do
+        
+        if [ $waited -lt $timeout ]; then
+            sleep 1
+            waited=$(($waited + 1))
+        else
+            echo "not found"
+            return 1
+        fi
+    done
+    
+    echo "found"
+    return 0
+}
+
+wait_for_gpspty()
+{
+    local pty=$1
+    
+    echo "Waiting for GPS Locatopn PTY: $pty"
+    
+    while (! test -f "$pty")
+    do
+        sleep 1
+    done
+    echo "found"
+    return $0
+}

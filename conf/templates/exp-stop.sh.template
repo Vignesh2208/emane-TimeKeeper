@@ -1,0 +1,73 @@
+#!/bin/bash -
+
+PROGRAM=$(basename $0)
+
+if [ -d /var/run/lock ]
+then
+    LOCK_FILE=/var/run/lock/lxc-demo.lock
+else
+    LOCK_FILE=/var/lock/lxc-demo.lock
+fi
+
+DEFAULT_OUTPUT_ROOT=/tmp/emane
+DEFAULT_EMANE_XML_ROOT=@EXPERIMENT_DIR@
+
+
+OUTPUT_ROOT=$DEFAULT_OUTPUT_ROOT
+EMANE_XML_ROOT=$DEFAULT_EMANE_XML_ROOT
+
+
+if [ $EUID -ne 0 ]; then
+    echo "You need to be root to perform this command."
+    exit 1
+fi
+
+
+shift $((OPTIND-1))
+
+if [ ! -f "$LOCK_FILE" ]; then
+    echo "No running simulation lock file found: $LOCK_FILE"
+    exit 1
+fi
+
+
+LXC_NODE_CONFIG_DEMO_ROOT=$OUTPUT_ROOT/lxc
+
+if [ ! -d "$LXC_NODE_CONFIG_DEMO_ROOT" ]; then
+    echo "Invalid LXC Files location: $LXC_NODE_CONFIG_DEMO_ROOT"
+    exit 1
+fi
+
+find "$LXC_NODE_CONFIG_DEMO_ROOT" -name 'lxc-node-stop.sh' -exec {} \;
+
+#for i in `find "$LXC_NODE_CONFIG_DEMO_ROOT"/*/var/* -type d -print `
+#do
+#    pushd $i &> /dev/null
+#    rm -rf *
+#    popd &> /dev/null
+#done
+
+
+
+EMANE_EVENTSERVICE_XML=$EMANE_XML_ROOT/eventservice.xml
+
+if [ -f "$EMANE_EVENTSERVICE_XML" ]; then
+    killall -QUIT emaneeventservice
+fi
+
+
+if [ -f "$LOCK_FILE" ]
+then
+    # remove the bridge interface
+    iptables -D FORWARD -i br0 -j ACCEPT
+    iptables -D INPUT -i br0 -j ACCEPT
+
+    ip link set down br0
+
+    brctl delbr br0
+    
+    rm -f "$LOCK_FILE"
+fi
+
+
+exit 0

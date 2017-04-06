@@ -1,0 +1,5 @@
+#!/bin/bash -
+
+NODEID=@NODEID@
+
+sudo lxc-stop --kill -n node-$NODEID &> /dev/null

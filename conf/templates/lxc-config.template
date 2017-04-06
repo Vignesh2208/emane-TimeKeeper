@@ -1,0 +1,31 @@
+lxc.utsname=node-@NODEID@
+
+lxc.network.type = veth
+lxc.network.flags = up
+lxc.network.link = br0
+lxc.network.name=eth1
+lxc.network.ipv4 = @NODEIDIP@/16
+lxc.network.hwaddr = 02:00:00:00:@NODEIDHEX@
+lxc.network.name = @OTAMANAGERDEVICE@
+lxc.network.veth.pair=veth@NODEID@.0
+
+lxc.network.type=veth
+lxc.network.name=eth2
+lxc.network.hwaddr=02:@NODEIDHEX@:02:00:01
+lxc.network.veth.pair=veth@NODEID@.2
+
+lxc.network.type = empty
+lxc.network.flags = up
+
+lxc.tty = 12
+lxc.pts = 128
+
+lxc.cgroup.cpu.shares = 1
+lxc.cgroup.cpuset.cpus = @CPU1@
+
+lxc.aa_profile = unconfined
+lxc.autodev = 0
+lxc.cgroup.devices.allow = a
+
+
+
