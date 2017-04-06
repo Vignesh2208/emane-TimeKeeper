@@ -1,5 +1,0 @@
-Starting Debug for node-2
-SIOCSARP: Invalid argument
-arp: cannot set entry on line 2 of etherfile /home/user/Desktop/emane-TimeKeeper/conf/experiment/arp_table.txt !
-Running Command sudo nice -n -20 su -c /home/user/Desktop/emane-TimeKeeper/tests/large_linear//dilation-code/scripts/print_time
-bash: /home/user/Desktop/emane-TimeKeeper/tests/large_linear//dilation-code/scripts/print_time: No such file or directory
